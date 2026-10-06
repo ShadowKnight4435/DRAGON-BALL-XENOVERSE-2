@@ -1,0 +1,23 @@
+{
+ "_note": "Diagnostic poses for REVAMP-compatible deformation tests. Rotations are degrees about the bone's rest-local axes; every HUF body bone has an identity rest orientation, so these are Blender world axes at rest (X lateral +model-left, Y posterior, Z up). Helper bones (ArmHelper, LegHelper, Elbow, Knee) follow at half angle, matching the XV2 helper convention used by the earlier audits. Applied in order to the preserved rig through Blender's armature modifier (linear blend skinning, normalized 4-influence weights).",
+ "arms_down":        {"b_L_Arm1": [["Y", 60]], "b_L_ArmHelper": [["Y", 30]], "b_R_Arm1": [["Y", -60]], "b_R_ArmHelper": [["Y", -30]]},
+ "shoulder_raise":   {"b_L_Arm1": [["Y", -75]], "b_L_ArmHelper": [["Y", -37.5]], "b_R_Arm1": [["Y", 75]], "b_R_ArmHelper": [["Y", 37.5]]},
+ "shoulder_forward": {"b_L_Arm1": [["Z", -70]], "b_L_ArmHelper": [["Z", -35]], "b_R_Arm1": [["Z", 70]], "b_R_ArmHelper": [["Z", 35]]},
+ "shoulder_rotation":{"b_L_Arm1": [["X", 60]], "b_R_Arm1": [["X", -60]]},
+ "elbow_flex":       {"b_L_Arm2": [["Z", -110]], "b_L_Elbow": [["Z", -55]], "b_R_Arm2": [["Z", 110]], "b_R_Elbow": [["Z", 55]]},
+ "wrist_motion":     {"b_L_Hand": [["Y", 40]], "b_R_Hand": [["Y", -40]]},
+ "forearm_twist":    {"b_L_Arm2": [["X", 75]], "b_L_ArmRoll": [["X", 35]], "b_R_Arm2": [["X", -75]], "b_R_ArmRoll": [["X", -35]]},
+ "torso_flexion":    {"b_C_Spine1": [["X", 18]], "b_C_Spine2": [["X", 18]], "b_C_Chest": [["X", 18]]},
+ "torso_extension":  {"b_C_Spine1": [["X", -14]], "b_C_Spine2": [["X", -14]], "b_C_Chest": [["X", -12]]},
+ "lateral_bend":     {"b_C_Spine1": [["Y", 12]], "b_C_Spine2": [["Y", 12]], "b_C_Chest": [["Y", 10]]},
+ "torso_twist":      {"b_C_Spine2": [["Z", 20]], "b_C_Chest": [["Z", 25]]},
+ "hip_flexion":      {"b_L_Leg1": [["X", -60]], "b_L_LegHelper": [["X", -30]]},
+ "high_kick":        {"b_L_Leg1": [["X", -105]], "b_L_LegHelper": [["X", -52.5]]},
+ "hip_extension":    {"b_L_Leg1": [["X", 30]], "b_L_LegHelper": [["X", 15]]},
+ "hip_abduction":    {"b_L_Leg1": [["Y", -35]], "b_L_LegHelper": [["Y", -17.5]], "b_R_Leg1": [["Y", 35]], "b_R_LegHelper": [["Y", 17.5]]},
+ "hip_rotation":     {"b_L_Leg1": [["Z", 35]], "b_L_LegHelper": [["Z", 17.5]]},
+ "knee_flex":        {"b_L_Leg2": [["X", 120]], "b_L_Knee": [["X", 60]]},
+ "deep_crouch":      {"b_C_Spine1": [["X", 12]], "b_L_Leg1": [["X", -100]], "b_R_Leg1": [["X", -100]], "b_L_LegHelper": [["X", -50]], "b_R_LegHelper": [["X", -50]], "b_L_Leg2": [["X", 130]], "b_R_Leg2": [["X", 130]], "b_L_Knee": [["X", 65]], "b_R_Knee": [["X", 65]], "b_L_Foot": [["X", -20]], "b_R_Foot": [["X", -20]]},
+ "ankle_motion":     {"b_L_Foot": [["X", 30]], "b_R_Foot": [["X", -25]]},
+ "fight_stance":     {"b_L_Arm1": [["Y", 55], ["Z", -35]], "b_L_ArmHelper": [["Y", 27.5]], "b_L_Arm2": [["Z", -90]], "b_R_Arm1": [["Y", -55], ["Z", 35]], "b_R_ArmHelper": [["Y", -27.5]], "b_R_Arm2": [["Z", 90]], "b_L_Leg1": [["X", -25], ["Y", -15]], "b_L_LegHelper": [["X", -12.5]], "b_R_Leg1": [["X", 15], ["Y", 12]], "b_R_LegHelper": [["X", 7.5]], "b_L_Leg2": [["X", 35]], "b_R_Leg2": [["X", 30]], "b_C_Spine2": [["Z", 15]]}
+}
