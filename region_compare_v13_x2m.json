@@ -1,0 +1,160 @@
+{
+ "v13": {
+  "vulva_central": {
+   "edges": 135,
+   "abs_p95": 121.72245348671284,
+   "abs_max": 158.08431839953326,
+   "concave_max": 158.08431839953326,
+   "concave_over_40": 6,
+   "convex_over_40": 16
+  },
+  "vulva_crease_line": {
+   "edges": 53,
+   "abs_p95": 150.97457175824536,
+   "abs_max": 158.08431839953326,
+   "concave_max": 158.08431839953326,
+   "concave_over_40": 2,
+   "convex_over_40": 16
+  },
+  "inguinal_folds": {
+   "edges": 50,
+   "abs_p95": 51.33054510638138,
+   "abs_max": 78.50284171043543,
+   "concave_max": 78.50284171043543,
+   "concave_over_40": 4,
+   "convex_over_40": 0
+  },
+  "pubic_mound": {
+   "edges": 73,
+   "abs_p95": 102.99265231980034,
+   "abs_max": 153.84955768653947,
+   "concave_max": 121.72245348671284,
+   "concave_over_40": 4,
+   "convex_over_40": 3
+  },
+  "nipple_areola": {
+   "edges": 268,
+   "abs_p95": 50.631566793419104,
+   "abs_max": 63.455646241732545,
+   "concave_max": 38.38934974829312,
+   "concave_over_40": 0,
+   "convex_over_40": 24
+  },
+  "lateral_hip": {
+   "edges": 302,
+   "abs_p95": 24.347486832096386,
+   "abs_max": 46.29480809840407,
+   "concave_max": 11.480852166757575,
+   "concave_over_40": 0,
+   "convex_over_40": 3
+  },
+  "crease_profile_concave_deg_by_h": {
+   "0.58": 3.249646333088604,
+   "0.59": 158.08431839953326,
+   "0.60": 0.8297494320454243,
+   "0.61": 4.519651129723404,
+   "0.62": 0.0
+  },
+  "vulva_mirror": {
+   "p95": 0.0030977082962658498,
+   "max": 0.003996573532414986
+  },
+  "nipple_L": {
+   "apex": [
+    -0.0746,
+    0.2136,
+    -0.1453
+   ],
+   "fan_faces": 5,
+   "fan_normal_spread_deg": 37.66859247010906
+  },
+  "nipple_R": {
+   "apex": [
+    0.0746,
+    0.2136,
+    -0.1453
+   ],
+   "fan_faces": 5,
+   "fan_normal_spread_deg": 37.668592470109076
+  }
+ },
+ "x2m": {
+  "vulva_central": {
+   "edges": 133,
+   "abs_p95": 72.95948463551947,
+   "abs_max": 154.53277232714217,
+   "concave_max": 154.53277232714217,
+   "concave_over_40": 8,
+   "convex_over_40": 4
+  },
+  "vulva_crease_line": {
+   "edges": 45,
+   "abs_p95": 73.3044970511447,
+   "abs_max": 84.07324902820507,
+   "concave_max": 84.07324902820507,
+   "concave_over_40": 4,
+   "convex_over_40": 0
+  },
+  "inguinal_folds": {
+   "edges": 50,
+   "abs_p95": 37.54279360254723,
+   "abs_max": 53.22365462925533,
+   "concave_max": 53.22365462925533,
+   "concave_over_40": 2,
+   "convex_over_40": 0
+  },
+  "pubic_mound": {
+   "edges": 73,
+   "abs_p95": 75.99613657497531,
+   "abs_max": 122.47190732096335,
+   "concave_max": 122.47190732096335,
+   "concave_over_40": 5,
+   "convex_over_40": 0
+  },
+  "nipple_areola": {
+   "edges": 269,
+   "abs_p95": 47.82889180090845,
+   "abs_max": 56.30640464842294,
+   "concave_max": 34.987891528032755,
+   "concave_over_40": 0,
+   "convex_over_40": 24
+  },
+  "lateral_hip": {
+   "edges": 99,
+   "abs_p95": 34.83833965723736,
+   "abs_max": 44.44033274903668,
+   "concave_max": 34.02634837513975,
+   "concave_over_40": 0,
+   "convex_over_40": 2
+  },
+  "crease_profile_concave_deg_by_h": {
+   "0.58": 6.403612852055514,
+   "0.59": 84.07324902820507,
+   "0.60": 72.61447221989427,
+   "0.61": 73.4770032589573,
+   "0.62": 0.0
+  },
+  "vulva_mirror": {
+   "p95": 0.0,
+   "max": 0.0
+  },
+  "nipple_L": {
+   "apex": [
+    -0.0674,
+    0.2276,
+    -0.1488
+   ],
+   "fan_faces": 5,
+   "fan_normal_spread_deg": 32.779701023478786
+  },
+  "nipple_R": {
+   "apex": [
+    0.0674,
+    0.2276,
+    -0.1488
+   ],
+   "fan_faces": 5,
+   "fan_normal_spread_deg": 32.779701023478786
+  }
+ }
+}

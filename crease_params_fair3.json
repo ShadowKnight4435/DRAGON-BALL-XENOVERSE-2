@@ -1,0 +1,114 @@
+{
+ "_why": "Hip fold: single-edge crease runs 154/122/79/52 deg from the labiocrural sulcus to v407 then forks into two ~12 deg edges (abrupt end). Targets give a deep-medial, fading-lateral profile along the existing edge loop 691-690-613-452-450-407-406-421 (up-lateral toward the ASIS). Vulva: 45-57 deg convex rim beside the slit and 26-39 deg ridges flanking the fold read as hard double lines (toon/low/3-4 views). Slit vertices fixed.",
+ "eval_window": {
+  "hmin": 0.555,
+  "hmax": 0.725,
+  "xmax": 0.135,
+  "zmax": 0.015
+ },
+ "active_window": {
+  "hmin": 0.565,
+  "hmax": 0.7,
+  "xmax": 0.115,
+  "zmax": 0.012
+ },
+ "slit_x": 0.002,
+ "rim_x": 0.008,
+ "vulva_zone": {
+  "xmax": 0.03,
+  "hmin": 0.572,
+  "hmax": 0.618
+ },
+ "cap_convex": 24.0,
+ "cap_concave": 40.0,
+ "cap_convex_vulva": 36.0,
+ "cap_concave_vulva": 45.0,
+ "chain_targets": [
+  [
+   690,
+   613,
+   -132.0
+  ],
+  [
+   613,
+   452,
+   -106.0
+  ],
+  [
+   452,
+   450,
+   -72.0
+  ],
+  [
+   450,
+   407,
+   -40.0
+  ],
+  [
+   407,
+   406,
+   -22.0
+  ],
+  [
+   406,
+   421,
+   -10.0
+  ],
+  [
+   407,
+   442,
+   -8.0
+  ]
+ ],
+ "tmax": 0.0035,
+ "tmax_rim": 0.0012,
+ "w_chain": 1.0,
+ "w_soften": 1.0,
+ "w_nosharpen": 2.0,
+ "w_noflip": 2.0,
+ "w_reg": 0.25,
+ "w_smooth": 0.15,
+ "snap": 1e-06,
+ "max_nfev": 400,
+ "slack": 8.0,
+ "soften_targets": [
+  [
+   607,
+   611,
+   24
+  ],
+  [
+   611,
+   451,
+   22
+  ],
+  [
+   451,
+   450,
+   20
+  ],
+  [
+   612,
+   452,
+   26
+  ]
+ ],
+ "band_polyline": [
+  690,
+  613,
+  452,
+  450,
+  407,
+  406,
+  421
+ ],
+ "band_r": 0.03,
+ "slack_band": 10.0,
+ "w_target_soften": 1.5,
+ "tmax_thigh": 0.005,
+ "thigh_x": 0.03,
+ "mode": "fair",
+ "w_fair": 0.35,
+ "w_keep": 0.6,
+ "slack_concave": 8.0
+}

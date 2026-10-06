@@ -1,0 +1,10 @@
+{
+ "_why": "Verified deficiency (rest, LOD00): v13 vulvar crease line p95 151 deg with 16 hard convex ridges (>40 deg) and a single 158 deg pinch at h 0.59; .x2m reference: p95 73 deg, 0 convex ridges, 72-84 deg groove over h 0.59-0.61 fading at both ends. Inguinal folds 51 vs 38 deg p95. Feature-preserving Taubin smoothing inside a soft mask; no .x2m vertices or shape are copied.",
+ "core_x_full": 0.026, "core_x_zero": 0.042,
+ "core_h": [0.528, 0.545, 0.620, 0.640],
+ "ing_x": [0.035, 0.050, 0.085, 0.100],
+ "ing_h": [0.545, 0.565, 0.640, 0.665],
+ "front_z_full": -0.035, "front_z_zero": -0.010,
+ "inguinal_strength": 0.5,
+ "iterations": 4, "lambda": 0.5, "mu": -0.53, "strength": 1.0
+}

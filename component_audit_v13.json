@@ -1,0 +1,462 @@
+{
+ "package": "D:\\Codebase\\Projects\\DRAGON BALL XENOVERSE 2\\_HUF_REVAMP511_ReferenceBody_20260930\\reference_fit_20261005\\candidate_v13",
+ "lods": [
+  {
+   "lod": 0,
+   "parts": {
+    "Bust": {
+     "vertices": 2781,
+     "faces": 5474,
+     "unreferenced": [
+      {
+       "index": 831,
+       "position": [
+        0.06424,
+        0.21604,
+        -0.13739
+       ],
+       "weights": {
+        "b_C_Chest": 0.923828125,
+        "b_L_Shoulder": 0.07342529296875,
+        "b_L_ArmHelper": 0.00274658203125
+       },
+       "nearest_emd_vertex_distance": 0.005679573394194503,
+       "coincident_referenced_vertices": [],
+       "locked": false
+      },
+      {
+       "index": 874,
+       "position": [
+        -0.06424,
+        0.21604,
+        -0.13739
+       ],
+       "weights": {
+        "b_C_Chest": 0.923828125,
+        "b_R_Shoulder": 0.07342529296875,
+        "b_R_ArmHelper": 0.00274658203125
+       },
+       "nearest_emd_vertex_distance": 0.005679573394194503,
+       "coincident_referenced_vertices": [],
+       "locked": false
+      }
+     ],
+     "locked_count": 88,
+     "materials": {
+      "SKIN_bust_A": 2956,
+      "SKIN_bust_C": 404,
+      "SKIN_nipple": 116,
+      "SKIN_bust_B": 1958,
+      "SKIN_bust_CB": 40
+     }
+    },
+    "Pants": {
+     "vertices": 1626,
+     "faces": 2636,
+     "unreferenced": [
+      {
+       "index": 714,
+       "position": [
+        0.0,
+        0.00598,
+        0.07398
+       ],
+       "weights": {
+        "b_C_Pelvis": 0.9657573699951172,
+        "b_C_Spine1": 0.031890869140625,
+        "b_L_LegHelper": 0.0011758804321289062,
+        "b_R_LegHelper": 0.0011758804321289062
+       },
+       "nearest_emd_vertex_distance": 0.007142727798153869,
+       "coincident_referenced_vertices": [],
+       "locked": false
+      },
+      {
+       "index": 715,
+       "position": [
+        0.0,
+        0.01946,
+        0.07377
+       ],
+       "weights": {
+        "b_C_Pelvis": 0.8535861968994141,
+        "b_C_Spine1": 0.1448974609375,
+        "b_L_LegHelper": 0.0007581710815429688,
+        "b_R_LegHelper": 0.0007581710815429688
+       },
+       "nearest_emd_vertex_distance": 0.007578844176525193,
+       "coincident_referenced_vertices": [],
+       "locked": false
+      },
+      {
+       "index": 716,
+       "position": [
+        0.0,
+        -0.00842,
+        0.07068
+       ],
+       "weights": {
+        "b_C_Pelvis": 0.9630126953125,
+        "b_C_Spine1": 0.0166015625,
+        "b_L_LegHelper": 0.01019287109375,
+        "b_R_LegHelper": 0.01019287109375
+       },
+       "nearest_emd_vertex_distance": 0.01023362372795978,
+       "coincident_referenced_vertices": [],
+       "locked": false
+      }
+     ],
+     "locked_count": 52,
+     "materials": {
+      "SKIN_leg": 2188,
+      "HAIR_pubic": 448
+     },
+     "pubic": {
+      "faces": 448,
+      "vertices": 504,
+      "shares_vertices_with_skin": 0,
+      "bounds": [
+       [
+        -0.0115,
+        -0.0431,
+        -0.0789
+       ],
+       [
+        0.0134,
+        0.0152,
+        -0.0302
+       ]
+      ]
+     }
+    },
+    "Rist": {
+     "vertices": 856,
+     "faces": 1672,
+     "unreferenced": [],
+     "locked_count": 36,
+     "materials": {
+      "SKIN_rist": 1672
+     }
+    },
+    "Boots": {
+     "vertices": 1318,
+     "faces": 2606,
+     "unreferenced": [],
+     "locked_count": 26,
+     "materials": {
+      "SKIN_boots": 2280,
+      "long_nails": 326
+     }
+    }
+   },
+   "seams": {
+    "Bust-Pants (waist)": {
+     "count": 26,
+     "left": 13,
+     "right": 12,
+     "centre": 1,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    },
+    "Bust-Rist (wrists)": {
+     "count": 36,
+     "left": 18,
+     "right": 18,
+     "centre": 0,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    },
+    "Pants-Boots (ankles)": {
+     "count": 26,
+     "left": 13,
+     "right": 13,
+     "centre": 0,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    }
+   }
+  },
+  {
+   "lod": 1,
+   "parts": {
+    "Bust": {
+     "vertices": 2176,
+     "faces": 4268,
+     "unreferenced": [],
+     "locked_count": 88,
+     "materials": {
+      "SKIN_bust_A": 2182,
+      "SKIN_bust_C": 400,
+      "SKIN_nipple": 96,
+      "SKIN_bust_B": 1550,
+      "SKIN_bust_CB": 40
+     }
+    },
+    "Pants": {
+     "vertices": 1333,
+     "faces": 2056,
+     "unreferenced": [],
+     "locked_count": 52,
+     "materials": {
+      "SKIN_leg": 1608,
+      "HAIR_pubic": 448
+     },
+     "pubic": {
+      "faces": 448,
+      "vertices": 504,
+      "shares_vertices_with_skin": 0,
+      "bounds": [
+       [
+        -0.0115,
+        -0.0431,
+        -0.0789
+       ],
+       [
+        0.0134,
+        0.0152,
+        -0.0302
+       ]
+      ]
+     }
+    },
+    "Rist": {
+     "vertices": 672,
+     "faces": 1304,
+     "unreferenced": [],
+     "locked_count": 36,
+     "materials": {
+      "SKIN_rist": 1304
+     }
+    },
+    "Boots": {
+     "vertices": 1072,
+     "faces": 2114,
+     "unreferenced": [],
+     "locked_count": 26,
+     "materials": {
+      "SKIN_boots": 1788,
+      "long_nails": 326
+     }
+    }
+   },
+   "seams": {
+    "Bust-Pants (waist)": {
+     "count": 26,
+     "left": 13,
+     "right": 12,
+     "centre": 1,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    },
+    "Bust-Rist (wrists)": {
+     "count": 36,
+     "left": 18,
+     "right": 18,
+     "centre": 0,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    },
+    "Pants-Boots (ankles)": {
+     "count": 26,
+     "left": 13,
+     "right": 13,
+     "centre": 0,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    }
+   }
+  },
+  {
+   "lod": 2,
+   "parts": {
+    "Bust": {
+     "vertices": 1465,
+     "faces": 2846,
+     "unreferenced": [],
+     "locked_count": 88,
+     "materials": {
+      "SKIN_bust_A": 1360,
+      "SKIN_bust_C": 354,
+      "SKIN_nipple": 80,
+      "SKIN_bust_B": 1012,
+      "SKIN_bust_CB": 40
+     }
+    },
+    "Pants": {
+     "vertices": 1077,
+     "faces": 1544,
+     "unreferenced": [],
+     "locked_count": 52,
+     "materials": {
+      "SKIN_leg": 1096,
+      "HAIR_pubic": 448
+     },
+     "pubic": {
+      "faces": 448,
+      "vertices": 504,
+      "shares_vertices_with_skin": 0,
+      "bounds": [
+       [
+        -0.0115,
+        -0.0431,
+        -0.0789
+       ],
+       [
+        0.0134,
+        0.0152,
+        -0.0302
+       ]
+      ]
+     }
+    },
+    "Rist": {
+     "vertices": 454,
+     "faces": 868,
+     "unreferenced": [],
+     "locked_count": 36,
+     "materials": {
+      "SKIN_rist": 868
+     }
+    },
+    "Boots": {
+     "vertices": 986,
+     "faces": 1942,
+     "unreferenced": [],
+     "locked_count": 26,
+     "materials": {
+      "SKIN_boots": 1616,
+      "long_nails": 326
+     }
+    }
+   },
+   "seams": {
+    "Bust-Pants (waist)": {
+     "count": 26,
+     "left": 13,
+     "right": 12,
+     "centre": 1,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    },
+    "Bust-Rist (wrists)": {
+     "count": 36,
+     "left": 18,
+     "right": 18,
+     "centre": 0,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    },
+    "Pants-Boots (ankles)": {
+     "count": 26,
+     "left": 13,
+     "right": 13,
+     "centre": 0,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    }
+   }
+  },
+  {
+   "lod": 3,
+   "parts": {
+    "Bust": {
+     "vertices": 863,
+     "faces": 1642,
+     "unreferenced": [],
+     "locked_count": 88,
+     "materials": {
+      "SKIN_bust_A": 758,
+      "SKIN_bust_C": 202,
+      "SKIN_nipple": 72,
+      "SKIN_bust_B": 570,
+      "SKIN_bust_CB": 40
+     }
+    },
+    "Pants": {
+     "vertices": 1000,
+     "faces": 1390,
+     "unreferenced": [],
+     "locked_count": 52,
+     "materials": {
+      "SKIN_leg": 942,
+      "HAIR_pubic": 448
+     },
+     "pubic": {
+      "faces": 448,
+      "vertices": 504,
+      "shares_vertices_with_skin": 0,
+      "bounds": [
+       [
+        -0.0115,
+        -0.0431,
+        -0.0789
+       ],
+       [
+        0.0134,
+        0.0152,
+        -0.0302
+       ]
+      ]
+     }
+    },
+    "Rist": {
+     "vertices": 354,
+     "faces": 668,
+     "unreferenced": [],
+     "locked_count": 36,
+     "materials": {
+      "SKIN_rist": 668
+     }
+    },
+    "Boots": {
+     "vertices": 922,
+     "faces": 1814,
+     "unreferenced": [],
+     "locked_count": 26,
+     "materials": {
+      "SKIN_boots": 1488,
+      "long_nails": 326
+     }
+    }
+   },
+   "seams": {
+    "Bust-Pants (waist)": {
+     "count": 26,
+     "left": 13,
+     "right": 12,
+     "centre": 1,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    },
+    "Bust-Rist (wrists)": {
+     "count": 36,
+     "left": 18,
+     "right": 18,
+     "centre": 0,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    },
+    "Pants-Boots (ankles)": {
+     "count": 26,
+     "left": 13,
+     "right": 13,
+     "centre": 0,
+     "max_gap": 0.0,
+     "normals_equal": true,
+     "weights_equal": true
+    }
+   }
+  }
+ ]
+}

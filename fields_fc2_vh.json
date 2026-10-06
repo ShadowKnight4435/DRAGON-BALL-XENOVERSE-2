@@ -1,0 +1,186 @@
+{
+ "_units": "native HUF model units, game axes (x lateral, y up, z back=+). Chin-to-sole H = 1.0761; h = (y + 0.697) / H.",
+ "_baseline": "v13 production baseline (candidate_v13 fields_used.json) with localized replacements; built from the Chun-Li source so every term is explicit",
+ "_replaced": {
+  "hip_narrowing": "replaced by hip_xscale (v13 z-band protection left a flat lateral-hip plane, visible as a toon-outline in the runtime video)",
+  "waist_ribcage": "replaced by the smooth nb waist contour (v13 waist minimum sat on the first loop above the Bust/Pants seam: in-game flank notch)",
+  "forearm_thickening": "taper now ends at |x| 0.442 (v13 crease at the Bust/Rist wrist seam 28.7 deg vs source 26.6)"
+ },
+ "_kept_from_v13": [
+  "bust_lowering",
+  "glute_lower_fill"
+ ],
+ "_not_changed": {
+  "vulva": "resolution-independent comparison with the .x2m: v13 contour within 0.002 (mean 0.0009), point-to-surface mirror error 0; dihedral differences are due to the .x2m having 110 vs 62 cleft vertices (topology not transferable)",
+  "areola_nipple": "v13 within the .x2m curvature range (p95 50.6 vs 47.8 deg, fan spread 37.7 vs 32.8 deg); no deficiency"
+ },
+ "bust_lowering": {
+  "_why": "Reference bust apex h 0.845-0.848 (front and profile) vs model nipple/apex h 0.860; reference IMF ~0.806 vs model ~0.812. Projection already matches. Areola + CB ring translate rigidly (no scale change). Two cubic ramps (below-IMF and lower pole) keep peak vertical compression near 20%; the SKIN_nipple patch (y 0.212-0.245) translates rigidly. Pass 2: below-IMF ramp limited to the front ribcage (z < -0.035) after a torso_twist crossing at the lateral waist.",
+  "centre_x": 0.0753,
+  "apex_drop": 0.014,
+  "imf_drop": 0.0085,
+  "y_below_start": 0.095,
+  "y_imf": 0.1703,
+  "y_plateau_lo": 0.209,
+  "y_plateau_hi": 0.25,
+  "y_top": 0.335,
+  "radial_plateau": 0.042,
+  "radial_outer": 0.105,
+  "front_z_full": -0.06,
+  "front_z_zero": 0.0,
+  "below_z_zero": -0.035,
+  "below_z_full": -0.075
+ },
+ "glute_lower_fill": {
+  "_why": "Back view: reference glute folds at h 0.546-0.56 vs model 0.585. Moderate posterior fill of the lower glute only; upper-glute/lumbar profile differences are attributed to reference pelvic tilt/staggered stance and not modelled.",
+  "knots_y": [
+   -0.1105,
+   -0.089,
+   -0.0729,
+   -0.0621,
+   -0.046,
+   -0.0298,
+   -0.0137
+  ],
+  "backward": [
+   0.0,
+   0.0035,
+   0.009,
+   0.011,
+   0.0075,
+   0.0028,
+   0.0
+  ],
+  "posterior_z_zero": 0.015,
+  "posterior_z_full": 0.06,
+  "lateral_full": 0.11,
+  "lateral_zero": 0.2,
+  "perineum_x_full": 0.035,
+  "perineum_x_zero": 0.012,
+  "perineum_y_free": -0.04,
+  "perineum_y_locked": -0.07
+ },
+ "waist_ribcage": {
+  "_why": "Exposed-skin band h 0.72-0.785. Source pinches in a V at h 0.784 (40 deg concave crease); v8 moved the pinch onto the first loop above the locked seam (38-42 deg crease, in-game flank notch). Target is one smooth contour: seam unchanged, gentle descent to a broad minimum ~0.086 at h 0.76, steady rise into the lower ribcage (matches the reference from h 0.76 up). Pass 2: lower-ribcage rise spread over h 0.755-0.795 (LOD03 torso_twist pair deepened).",
+  "knots_y": [
+   0.0887,
+   0.095,
+   0.1,
+   0.105,
+   0.11,
+   0.115,
+   0.12,
+   0.125,
+   0.13,
+   0.135,
+   0.14,
+   0.145,
+   0.15,
+   0.155,
+   0.16,
+   0.165,
+   0.17,
+   0.175,
+   0.18,
+   0.185
+  ],
+  "outward": [
+   0.0,
+   -0.0003,
+   -0.0012,
+   -0.0017,
+   -0.0015,
+   0.0,
+   0.0015,
+   0.0034,
+   0.0055,
+   0.0078,
+   0.01,
+   0.0122,
+   0.0138,
+   0.014,
+   0.0128,
+   0.0105,
+   0.0078,
+   0.0048,
+   0.0022,
+   0.0
+  ]
+ },
+ "forearm_thickening": {
+  "_why": "Visible skin: reference forearm 10-15 % wider (h 0.64-0.72). v8 values, but tapered to zero by |x| 0.442 so the wrist seam crease is not increased (v8 raised it 26.6 -> 28.7 deg mean).",
+  "knots_absx": [
+   0.35,
+   0.368,
+   0.385,
+   0.4,
+   0.415,
+   0.43,
+   0.442
+  ],
+  "outward": [
+   0.0,
+   0.003,
+   0.005,
+   0.0048,
+   0.0036,
+   0.0012,
+   0.0
+  ],
+  "top_knots_absx": [
+   0.355,
+   0.37,
+   0.388,
+   0.405,
+   0.418,
+   0.432,
+   0.442
+  ],
+  "top_outward": [
+   0.0,
+   0.002,
+   0.0043,
+   0.0043,
+   0.003,
+   0.001,
+   0.0
+  ]
+ },
+ "_snap": 1e-06,
+ "hip_narrowing": {
+  "_why": "Front+back reference silhouettes: model hip/trochanter band h 0.56-0.68 is wider by ~1.1-1.7 %H per side. Pass 2: anterior hip-crease/inguinal surfaces (z < -0.025, front) protected after hip_rotation/high_kick/deep_flexion regression found new crossings there. Pass 3: top of band (h 0.66-0.70) reduced after high_kick crossings at the upper lateral hip. Pass 4: lateral silhouette extremes lie at z +0.003..+0.012, so all front-facing hip surfaces (z < -0.004) are protected (high_kick). Pass 5: h 0.66-0.70 reduced further (single high_kick pair at the upper lateral hip, LOD00/01). Pass 6: band ends at y 0.042 (h 0.686); a grazing high_kick contact at the upper lateral hip reacted to a 0.0006 move. Pass 7: extended down the outer thigh (h 0.30-0.54, ~0.6 %H per side) after per-view width fits showed thighs ~1 %H/side wide on 3 of 4 reference sides (front k 0.967, back k 0.926); front-left side already matched, so ~70 %% of the mean is applied. Pass 8: posterior thigh below the fold (z > 0.015, y < -0.11) protected after knee_bend/deep_flexion calf-contact reshuffles. Pass 9: posterior thigh protection tightened (z > 0.005) and band starts at h 0.34 (deep_flexion). Pass 10: thigh band starts at h 0.40; posterior protection begins just below the glute fold (LOD01 knee_bend/deep_flexion). Pass 11 (final): thigh band withdrawn (its posterior protection left a flat lateral strip with a V-shaped highlight edge for ~0.15 %H of fit); anterior transition widened (z +0.010 -> -0.060) to keep lateral hip curvature; posterior protection inactive (band ends above the fold).",
+  "knots_y": [
+   -0.1374,
+   -0.1159,
+   -0.0944,
+   -0.0729,
+   -0.0513,
+   -0.0298,
+   -0.0083,
+   0.0132,
+   0.03,
+   0.042
+  ],
+  "inward": [
+   0.0,
+   0.0024,
+   0.006,
+   0.01,
+   0.013,
+   0.014,
+   0.013,
+   0.008,
+   0.0015,
+   0.0
+  ],
+  "lateral_power": 2.0,
+  "lateral_start": 0.2,
+  "anterior_protection": 1.0,
+  "anterior_z_free": 0.01,
+  "anterior_z_protected": -0.06,
+  "posterior_z_free": 0.9,
+  "posterior_z_protected": 1.0,
+  "posterior_y_free": -0.095,
+  "posterior_y_protected": -0.12
+ }
+}

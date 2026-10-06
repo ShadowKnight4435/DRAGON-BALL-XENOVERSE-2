@@ -1,0 +1,4489 @@
+{
+ "scope": "Offline metrics (game axes, model units). Poses: EAN keyframes / diagnostic rotations with linear skinning; no engine IK/physics.",
+ "packages": {
+  "fc2": {
+   "lods": {
+    "rest": {
+     "LOD00": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 31.722304964025895,
+        "crease_deg_mean": 18.33012275143118,
+        "crease_deg_p90": 28.606255084731785,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265384,
+        "crease_deg_mean": 26.612598547003923,
+        "crease_deg_p90": 48.78772946301432,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 2756,
+        "dihedral_p95": 16.186785511431612,
+        "dihedral_max": 30.791060090938686,
+        "concave_max": 29.453251793901483,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 905,
+        "dihedral_p95": 46.92166721958111,
+        "dihedral_max": 83.69286832240684,
+        "concave_max": 83.69286832240684,
+        "concave_over_20deg": 97,
+        "convex_over_30deg": 50
+       },
+       "waist_flank": {
+        "edges": 429,
+        "dihedral_p95": 31.083321943607327,
+        "dihedral_max": 49.98742149508578,
+        "concave_max": 49.98742149508578,
+        "concave_over_20deg": 17,
+        "convex_over_30deg": 16
+       },
+       "waist": {
+        "edges": 470,
+        "dihedral_p95": 28.355651143697298,
+        "dihedral_max": 48.37900901763916,
+        "concave_max": 48.260610488752654,
+        "concave_over_20deg": 23,
+        "convex_over_30deg": 12
+       },
+       "wrists": {
+        "edges": 342,
+        "dihedral_p95": 32.64359327452602,
+        "dihedral_max": 42.085922800283655,
+        "concave_max": 26.70500158618199,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 24
+       },
+       "iliac_crest": {
+        "edges": 519,
+        "dihedral_p95": 28.06402551317011,
+        "dihedral_max": 152.254076500423,
+        "concave_max": 152.254076500423,
+        "concave_over_20deg": 13,
+        "convex_over_30deg": 14
+       },
+       "lateral_hips": {
+        "edges": 451,
+        "dihedral_p95": 23.649715889072013,
+        "dihedral_max": 38.649656165550944,
+        "concave_max": 24.21205457749814,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 14
+       },
+       "glute_apex": {
+        "edges": 642,
+        "dihedral_p95": 25.932109980260453,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 16,
+        "convex_over_30deg": 14
+       },
+       "inner_thighs": {
+        "edges": 200,
+        "dihedral_p95": 27.785195093190925,
+        "dihedral_max": 40.20133509356207,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 10
+       },
+       "lateral_thigh": {
+        "edges": 244,
+        "dihedral_p95": 31.81433179866264,
+        "dihedral_max": 39.24023565735322,
+        "concave_max": 31.124206664945934,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 16
+       },
+       "knees": {
+        "edges": 384,
+        "dihedral_p95": 35.8399842653537,
+        "dihedral_max": 49.52360349263578,
+        "concave_max": 32.44374361258023,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 33
+       },
+       "calves": {
+        "edges": 380,
+        "dihedral_p95": 39.52029844004866,
+        "dihedral_max": 43.36609659513686,
+        "concave_max": 14.985444699171024,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 50
+       },
+       "ankles": {
+        "edges": 426,
+        "dihedral_p95": 34.992432360015975,
+        "dihedral_max": 54.98846954110813,
+        "concave_max": 38.2921931863869,
+        "concave_over_20deg": 30,
+        "convex_over_30deg": 42
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028961910400539637,
+       "median": -0.005157626001164317,
+       "max": 0.032405413687229156,
+       "below_skin_count": 343,
+       "hair_skin_triangle_overlaps": 248
+      }
+     },
+     "LOD01": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 31.722304964025895,
+        "crease_deg_mean": 18.33012275143118,
+        "crease_deg_p90": 28.606255084731785,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265384,
+        "crease_deg_mean": 26.612598547003923,
+        "crease_deg_p90": 48.78772946301432,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 1658,
+        "dihedral_p95": 17.857564895448505,
+        "dihedral_max": 30.837838752388176,
+        "concave_max": 29.441822769585723,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 831,
+        "dihedral_p95": 44.58877286731001,
+        "dihedral_max": 83.69286832240684,
+        "concave_max": 83.69286832240684,
+        "concave_over_20deg": 97,
+        "convex_over_30deg": 42
+       },
+       "waist_flank": {
+        "edges": 389,
+        "dihedral_p95": 31.153254576340363,
+        "dihedral_max": 49.98742149508578,
+        "concave_max": 49.98742149508578,
+        "concave_over_20deg": 17,
+        "convex_over_30deg": 15
+       },
+       "waist": {
+        "edges": 466,
+        "dihedral_p95": 28.35565114902918,
+        "dihedral_max": 48.37900901763916,
+        "concave_max": 48.260610488752654,
+        "concave_over_20deg": 23,
+        "convex_over_30deg": 12
+       },
+       "wrists": {
+        "edges": 324,
+        "dihedral_p95": 31.76621856273653,
+        "dihedral_max": 42.085922800283655,
+        "concave_max": 26.70500158618199,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 22
+       },
+       "iliac_crest": {
+        "edges": 283,
+        "dihedral_p95": 32.41730937386887,
+        "dihedral_max": 152.254076500423,
+        "concave_max": 152.254076500423,
+        "concave_over_20deg": 13,
+        "convex_over_30deg": 10
+       },
+       "lateral_hips": {
+        "edges": 258,
+        "dihedral_p95": 28.88486645796093,
+        "dihedral_max": 36.72733959099021,
+        "concave_max": 28.267658459168942,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 12
+       },
+       "glute_apex": {
+        "edges": 405,
+        "dihedral_p95": 33.92290744920097,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 19,
+        "convex_over_30deg": 16
+       },
+       "inner_thighs": {
+        "edges": 149,
+        "dihedral_p95": 28.993562407753565,
+        "dihedral_max": 37.27610061354604,
+        "concave_max": 20.38360591793691,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 8
+       },
+       "lateral_thigh": {
+        "edges": 153,
+        "dihedral_p95": 33.15202752197645,
+        "dihedral_max": 40.52434859634374,
+        "concave_max": 25.17322713820841,
+        "concave_over_20deg": 3,
+        "convex_over_30deg": 17
+       },
+       "knees": {
+        "edges": 249,
+        "dihedral_p95": 36.7386324145104,
+        "dihedral_max": 49.405836642984816,
+        "concave_max": 32.59818638941801,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 23
+       },
+       "calves": {
+        "edges": 280,
+        "dihedral_p95": 39.870478992403726,
+        "dihedral_max": 42.98913088537277,
+        "concave_max": 15.412586713640978,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 42
+       },
+       "ankles": {
+        "edges": 238,
+        "dihedral_p95": 37.99866861161613,
+        "dihedral_max": 54.83920655779028,
+        "concave_max": 36.332036449390806,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 28
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028903313912451267,
+       "median": -0.004921578569337726,
+       "max": 0.032405413687229156,
+       "below_skin_count": 339,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "LOD02": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.00499438139206,
+        "crease_deg_mean": 18.383908311786904,
+        "crease_deg_p90": 28.789419061833094,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265384,
+        "crease_deg_mean": 26.612598547003923,
+        "crease_deg_p90": 48.78772946301432,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 805,
+        "dihedral_p95": 21.434853243167925,
+        "dihedral_max": 32.48431960985037,
+        "concave_max": 32.48431960985037,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 702,
+        "dihedral_p95": 44.91390805416601,
+        "dihedral_max": 83.69286832240684,
+        "concave_max": 83.69286832240684,
+        "concave_over_20deg": 94,
+        "convex_over_30deg": 30
+       },
+       "waist_flank": {
+        "edges": 354,
+        "dihedral_p95": 30.006431032261347,
+        "dihedral_max": 49.98742149508578,
+        "concave_max": 49.98742149508578,
+        "concave_over_20deg": 19,
+        "convex_over_30deg": 13
+       },
+       "waist": {
+        "edges": 420,
+        "dihedral_p95": 28.518327607937845,
+        "dihedral_max": 48.206803869676065,
+        "concave_max": 44.72058781004553,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 12
+       },
+       "wrists": {
+        "edges": 266,
+        "dihedral_p95": 33.62005504571843,
+        "dihedral_max": 43.82080459976774,
+        "concave_max": 26.70500158618199,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 22
+       },
+       "iliac_crest": {
+        "edges": 168,
+        "dihedral_p95": 29.118489267929895,
+        "dihedral_max": 131.49601518750657,
+        "concave_max": 131.49601518750657,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 2
+       },
+       "lateral_hips": {
+        "edges": 108,
+        "dihedral_p95": 30.81303125821728,
+        "dihedral_max": 38.27447358479826,
+        "concave_max": 30.83472704822365,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 6
+       },
+       "glute_apex": {
+        "edges": 225,
+        "dihedral_p95": 34.09630245482339,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 11
+       },
+       "inner_thighs": {
+        "edges": 131,
+        "dihedral_p95": 26.543889138450595,
+        "dihedral_max": 32.02990931976305,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 4
+       },
+       "lateral_thigh": {
+        "edges": 89,
+        "dihedral_p95": 34.16731754791822,
+        "dihedral_max": 37.736900120653935,
+        "concave_max": 21.113345417218465,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 10
+       },
+       "knees": {
+        "edges": 128,
+        "dihedral_p95": 39.01758194670847,
+        "dihedral_max": 49.644162854436004,
+        "concave_max": 33.96522959868655,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 16
+       },
+       "calves": {
+        "edges": 192,
+        "dihedral_p95": 40.127649296140646,
+        "dihedral_max": 46.68435809651301,
+        "concave_max": 12.650767172248711,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 26
+       },
+       "ankles": {
+        "edges": 146,
+        "dihedral_p95": 42.991445702556,
+        "dihedral_max": 51.06958554884252,
+        "concave_max": 43.018399250368695,
+        "concave_over_20deg": 18,
+        "convex_over_30deg": 30
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028961910400539637,
+       "median": -0.005076386267319322,
+       "max": 0.032405413687229156,
+       "below_skin_count": 342,
+       "hair_skin_triangle_overlaps": 259
+      }
+     },
+     "LOD03": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 33.42222246600746,
+        "crease_deg_mean": 18.653999716746654,
+        "crease_deg_p90": 29.970900608098162,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265384,
+        "crease_deg_mean": 26.612598547003923,
+        "crease_deg_p90": 48.78772946301432,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 288,
+        "dihedral_p95": 29.220535543025907,
+        "dihedral_max": 38.734527567545825,
+        "concave_max": 38.734527567545825,
+        "concave_over_20deg": 24,
+        "convex_over_30deg": 6
+       },
+       "chest": {
+        "edges": 444,
+        "dihedral_p95": 54.29537615250523,
+        "dihedral_max": 87.41401131040982,
+        "concave_max": 87.41401131040982,
+        "concave_over_20deg": 68,
+        "convex_over_30deg": 45
+       },
+       "waist_flank": {
+        "edges": 241,
+        "dihedral_p95": 34.51367142052236,
+        "dihedral_max": 85.40903490261901,
+        "concave_max": 85.40903490261901,
+        "concave_over_20deg": 15,
+        "convex_over_30deg": 20
+       },
+       "waist": {
+        "edges": 308,
+        "dihedral_p95": 30.041754641891167,
+        "dihedral_max": 50.8614152125117,
+        "concave_max": 43.10002563155699,
+        "concave_over_20deg": 15,
+        "convex_over_30deg": 12
+       },
+       "wrists": {
+        "edges": 218,
+        "dihedral_p95": 31.53251744021365,
+        "dihedral_max": 42.085922800283655,
+        "concave_max": 26.70500158618199,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 14
+       },
+       "iliac_crest": {
+        "edges": 143,
+        "dihedral_p95": 29.576779711805855,
+        "dihedral_max": 131.49601518750657,
+        "concave_max": 131.49601518750657,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 2
+       },
+       "lateral_hips": {
+        "edges": 57,
+        "dihedral_p95": 30.413886666677108,
+        "dihedral_max": 35.43456737770131,
+        "concave_max": 30.424558242134946,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 4
+       },
+       "glute_apex": {
+        "edges": 182,
+        "dihedral_p95": 42.89653187516407,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 15
+       },
+       "inner_thighs": {
+        "edges": 126,
+        "dihedral_p95": 26.734920289956662,
+        "dihedral_max": 32.02990931976305,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 6
+       },
+       "lateral_thigh": {
+        "edges": 68,
+        "dihedral_p95": 33.4685962637157,
+        "dihedral_max": 37.00761059758077,
+        "concave_max": 34.85161052444582,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 3
+       },
+       "knees": {
+        "edges": 84,
+        "dihedral_p95": 44.3383269379016,
+        "dihedral_max": 57.958640120200364,
+        "concave_max": 44.261334987253235,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 12
+       },
+       "calves": {
+        "edges": 160,
+        "dihedral_p95": 39.310494948201836,
+        "dihedral_max": 53.7189034741316,
+        "concave_max": 24.770197357005586,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 20
+       },
+       "ankles": {
+        "edges": 112,
+        "dihedral_p95": 46.74813591498774,
+        "dihedral_max": 56.06690268759923,
+        "concave_max": 44.36306867471433,
+        "concave_over_20deg": 16,
+        "convex_over_30deg": 26
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028903313912451267,
+       "median": -0.005376849556341767,
+       "max": 0.032405413687229156,
+       "below_skin_count": 347,
+       "hair_skin_triangle_overlaps": 259
+      }
+     },
+     "lod_region_deviation": {
+      "shoulders": {
+       "LOD01": {
+        "p95": 0.00015205967210931703,
+        "max": 0.0002212617255281657
+       },
+       "LOD02": {
+        "p95": 0.0004203908436466,
+        "max": 0.0005893149063922465
+       },
+       "LOD03": {
+        "p95": 0.001064361073076725,
+        "max": 0.001474873162806034
+       }
+      },
+      "chest": {
+       "LOD01": {
+        "p95": 8.01867718109861e-05,
+        "max": 0.0002212617255281657
+       },
+       "LOD02": {
+        "p95": 0.0002119792974554002,
+        "max": 0.0005206071655265987
+       },
+       "LOD03": {
+        "p95": 0.002253527636639774,
+        "max": 0.002889487659558654
+       }
+      },
+      "waist_flank": {
+       "LOD01": {
+        "p95": 7.544211839558545e-05,
+        "max": 0.0003469860239420086
+       },
+       "LOD02": {
+        "p95": 0.00027371019677957514,
+        "max": 0.00044276320841163397
+       },
+       "LOD03": {
+        "p95": 0.002066895132884383,
+        "max": 0.0026975583750754595
+       }
+      },
+      "waist": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 0.0
+       },
+       "LOD02": {
+        "p95": 0.0003126616007648407,
+        "max": 0.00044276320841163397
+       },
+       "LOD03": {
+        "p95": 0.001544427033513784,
+        "max": 0.0026975583750754595
+       }
+      },
+      "iliac_crest": {
+       "LOD01": {
+        "p95": 0.0006326401635305956,
+        "max": 0.012367982417345047
+       },
+       "LOD02": {
+        "p95": 0.0015677068149670959,
+        "max": 0.012367982417345047
+       },
+       "LOD03": {
+        "p95": 0.0020115363062359385,
+        "max": 0.012367982417345047
+       }
+      },
+      "wrists": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 7.459291373379529e-05
+       },
+       "LOD02": {
+        "p95": 8.070976255112351e-05,
+        "max": 0.00017759710317477584
+       },
+       "LOD03": {
+        "p95": 0.0,
+        "max": 0.0005222791223786771
+       }
+      },
+      "lateral_hips": {
+       "LOD01": {
+        "p95": 0.0006959147518500685,
+        "max": 0.0010470892302691936
+       },
+       "LOD02": {
+        "p95": 0.0015160234412178396,
+        "max": 0.0020185625180602074
+       },
+       "LOD03": {
+        "p95": 0.002047595544718206,
+        "max": 0.0021978740114718676
+       }
+      },
+      "glute_apex": {
+       "LOD01": {
+        "p95": 0.0007180822372902183,
+        "max": 0.0021084172185510397
+       },
+       "LOD02": {
+        "p95": 0.0016527234402019518,
+        "max": 0.0019704566802829504
+       },
+       "LOD03": {
+        "p95": 0.0021982673788443208,
+        "max": 0.0030064741149544716
+       }
+      },
+      "inner_thighs": {
+       "LOD01": {
+        "p95": 0.0001287984296141076,
+        "max": 0.00027520465664565563
+       },
+       "LOD02": {
+        "p95": 0.0005151959718205032,
+        "max": 0.0007264293963089585
+       },
+       "LOD03": {
+        "p95": 0.0005348667706130067,
+        "max": 0.0007264293963089585
+       }
+      },
+      "lateral_thigh": {
+       "LOD01": {
+        "p95": 0.0005821972416015343,
+        "max": 0.0008329421398229897
+       },
+       "LOD02": {
+        "p95": 0.0015296403726097196,
+        "max": 0.0018076155101880431
+       },
+       "LOD03": {
+        "p95": 0.0021343090338632464,
+        "max": 0.0028846499044448137
+       }
+      },
+      "knees": {
+       "LOD01": {
+        "p95": 0.0003458486782619728,
+        "max": 0.0004447281826287508
+       },
+       "LOD02": {
+        "p95": 0.000934785191202536,
+        "max": 0.0011749878758564591
+       },
+       "LOD03": {
+        "p95": 0.0022819236037321397,
+        "max": 0.0030333392787724733
+       }
+      },
+      "calves": {
+       "LOD01": {
+        "p95": 0.0004942593659507111,
+        "max": 0.0007639335235580802
+       },
+       "LOD02": {
+        "p95": 0.0012372760102152822,
+        "max": 0.0018994761630892754
+       },
+       "LOD03": {
+        "p95": 0.0018255715549457818,
+        "max": 0.0019413330592215061
+       }
+      },
+      "ankles": {
+       "LOD01": {
+        "p95": 0.00045624221093021333,
+        "max": 0.0008857176871970296
+       },
+       "LOD02": {
+        "p95": 0.0009746315481606871,
+        "max": 0.0010011809645220637
+       },
+       "LOD03": {
+        "p95": 0.0011525668669492006,
+        "max": 0.0018025260651484132
+       }
+      }
+     }
+    },
+    "HUF_BAS_STAND:0": {
+     "LOD00": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.72622227591487,
+        "crease_deg_mean": 18.392120699918323,
+        "crease_deg_p90": 30.324431206440153,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 64.56084716843395,
+        "crease_deg_mean": 24.065524790745318,
+        "crease_deg_p90": 50.58361307138711,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.398188773570258,
+        "crease_deg_mean": 11.268268505916087,
+        "crease_deg_p90": 16.180873590410364,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 2756,
+        "dihedral_p95": 18.363033797200778,
+        "dihedral_max": 71.70395456012811,
+        "concave_max": 71.70395456012811,
+        "concave_over_20deg": 45,
+        "convex_over_30deg": 4
+       },
+       "chest": {
+        "edges": 905,
+        "dihedral_p95": 46.02841843818303,
+        "dihedral_max": 86.2453802090528,
+        "concave_max": 86.2453802090528,
+        "concave_over_20deg": 99,
+        "convex_over_30deg": 56
+       },
+       "waist_flank": {
+        "edges": 429,
+        "dihedral_p95": 35.78224378351103,
+        "dihedral_max": 55.95859060277887,
+        "concave_max": 51.054365815957524,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 29
+       },
+       "waist": {
+        "edges": 470,
+        "dihedral_p95": 37.818273469327806,
+        "dihedral_max": 55.95859060277887,
+        "concave_max": 50.160433839431114,
+        "concave_over_20deg": 40,
+        "convex_over_30deg": 29
+       },
+       "wrists": {
+        "edges": 342,
+        "dihedral_p95": 37.69319727306911,
+        "dihedral_max": 63.47927560256915,
+        "concave_max": 63.47927560256915,
+        "concave_over_20deg": 9,
+        "convex_over_30deg": 25
+       },
+       "iliac_crest": {
+        "edges": 519,
+        "dihedral_p95": 31.311885673899003,
+        "dihedral_max": 152.4256947408779,
+        "concave_max": 152.4256947408779,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 18
+       },
+       "lateral_hips": {
+        "edges": 451,
+        "dihedral_p95": 25.535898611747875,
+        "dihedral_max": 103.40964648101381,
+        "concave_max": 103.40964648101381,
+        "concave_over_20deg": 9,
+        "convex_over_30deg": 12
+       },
+       "glute_apex": {
+        "edges": 642,
+        "dihedral_p95": 22.767486919185778,
+        "dihedral_max": 152.4256947408779,
+        "concave_max": 152.4256947408779,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 9
+       },
+       "inner_thighs": {
+        "edges": 200,
+        "dihedral_p95": 27.527615702842297,
+        "dihedral_max": 40.235729647345096,
+        "concave_max": 13.547524726362427,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 10
+       },
+       "lateral_thigh": {
+        "edges": 244,
+        "dihedral_p95": 31.930117901194098,
+        "dihedral_max": 39.32194757772283,
+        "concave_max": 37.14248053093454,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 16
+       },
+       "knees": {
+        "edges": 384,
+        "dihedral_p95": 41.96397818201623,
+        "dihedral_max": 158.13662122913183,
+        "concave_max": 158.13662122913183,
+        "concave_over_20deg": 24,
+        "convex_over_30deg": 39
+       },
+       "calves": {
+        "edges": 380,
+        "dihedral_p95": 39.52029844004866,
+        "dihedral_max": 43.36609659513687,
+        "concave_max": 16.222696554272428,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 50
+       },
+       "ankles": {
+        "edges": 426,
+        "dihedral_p95": 38.662102631841094,
+        "dihedral_max": 58.94960208492212,
+        "concave_max": 58.94960208492212,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 43
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03265728801488876,
+       "p05": -0.029173924028873442,
+       "median": -0.005768120987340808,
+       "max": 0.03239920362830162,
+       "below_skin_count": 354,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "LOD01": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.72622227591487,
+        "crease_deg_mean": 18.392120699918323,
+        "crease_deg_p90": 30.324431206440153,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 64.56084716843395,
+        "crease_deg_mean": 24.065524790745318,
+        "crease_deg_p90": 50.58361307138711,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.398188773570258,
+        "crease_deg_mean": 11.268268505916087,
+        "crease_deg_p90": 16.180873590410364,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 1658,
+        "dihedral_p95": 21.037373107862354,
+        "dihedral_max": 71.03532461420428,
+        "concave_max": 71.03532461420428,
+        "concave_over_20deg": 44,
+        "convex_over_30deg": 4
+       },
+       "chest": {
+        "edges": 831,
+        "dihedral_p95": 44.93639615207368,
+        "dihedral_max": 86.2453802090528,
+        "concave_max": 86.2453802090528,
+        "concave_over_20deg": 100,
+        "convex_over_30deg": 50
+       },
+       "waist_flank": {
+        "edges": 389,
+        "dihedral_p95": 37.348219560354586,
+        "dihedral_max": 55.95859060277887,
+        "concave_max": 51.054365815957524,
+        "concave_over_20deg": 30,
+        "convex_over_30deg": 28
+       },
+       "waist": {
+        "edges": 466,
+        "dihedral_p95": 37.881675618911466,
+        "dihedral_max": 55.95859060277887,
+        "concave_max": 50.160433839431114,
+        "concave_over_20deg": 40,
+        "convex_over_30deg": 29
+       },
+       "wrists": {
+        "edges": 324,
+        "dihedral_p95": 37.197490458806186,
+        "dihedral_max": 65.37027963292697,
+        "concave_max": 65.37027963292697,
+        "concave_over_20deg": 9,
+        "convex_over_30deg": 23
+       },
+       "iliac_crest": {
+        "edges": 283,
+        "dihedral_p95": 37.40955608718988,
+        "dihedral_max": 152.4256947408779,
+        "concave_max": 152.4256947408779,
+        "concave_over_20deg": 20,
+        "convex_over_30deg": 19
+       },
+       "lateral_hips": {
+        "edges": 258,
+        "dihedral_p95": 28.06776502755325,
+        "dihedral_max": 52.69755467372843,
+        "concave_max": 52.69755467372843,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 9
+       },
+       "glute_apex": {
+        "edges": 405,
+        "dihedral_p95": 27.779425517971916,
+        "dihedral_max": 152.4256947408779,
+        "concave_max": 152.4256947408779,
+        "concave_over_20deg": 15,
+        "convex_over_30deg": 9
+       },
+       "inner_thighs": {
+        "edges": 149,
+        "dihedral_p95": 29.574384530931155,
+        "dihedral_max": 37.58125108302784,
+        "concave_max": 32.60771693771929,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 7
+       },
+       "lateral_thigh": {
+        "edges": 153,
+        "dihedral_p95": 34.1947039967471,
+        "dihedral_max": 40.072275809946966,
+        "concave_max": 28.902342497009975,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 16
+       },
+       "knees": {
+        "edges": 249,
+        "dihedral_p95": 50.2490112707837,
+        "dihedral_max": 155.9217586203573,
+        "concave_max": 155.9217586203573,
+        "concave_over_20deg": 26,
+        "convex_over_30deg": 35
+       },
+       "calves": {
+        "edges": 280,
+        "dihedral_p95": 39.87047899240364,
+        "dihedral_max": 42.98913088537281,
+        "concave_max": 15.412586713641169,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 42
+       },
+       "ankles": {
+        "edges": 238,
+        "dihedral_p95": 43.63114663082225,
+        "dihedral_max": 65.04233238027614,
+        "concave_max": 65.04233238027614,
+        "concave_over_20deg": 38,
+        "convex_over_30deg": 34
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03265728801488876,
+       "p05": -0.02921710079535842,
+       "median": -0.005559081444516778,
+       "max": 0.03239920362830162,
+       "below_skin_count": 350,
+       "hair_skin_triangle_overlaps": 253
+      }
+     },
+     "LOD02": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.91577325742963,
+        "crease_deg_mean": 18.44576672756738,
+        "crease_deg_p90": 30.609395591874545,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 64.56084716843395,
+        "crease_deg_mean": 24.065524790745318,
+        "crease_deg_p90": 50.58361307138711,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.398188773570258,
+        "crease_deg_mean": 11.268268505916087,
+        "crease_deg_p90": 16.180873590410364,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 805,
+        "dihedral_p95": 25.01791813286049,
+        "dihedral_max": 137.7369794629546,
+        "concave_max": 137.7369794629546,
+        "concave_over_20deg": 39,
+        "convex_over_30deg": 5
+       },
+       "chest": {
+        "edges": 702,
+        "dihedral_p95": 45.420019692730264,
+        "dihedral_max": 86.2453802090528,
+        "concave_max": 86.2453802090528,
+        "concave_over_20deg": 93,
+        "convex_over_30deg": 36
+       },
+       "waist_flank": {
+        "edges": 354,
+        "dihedral_p95": 38.141407855102,
+        "dihedral_max": 55.774438395330925,
+        "concave_max": 51.054365815957524,
+        "concave_over_20deg": 26,
+        "convex_over_30deg": 25
+       },
+       "waist": {
+        "edges": 420,
+        "dihedral_p95": 37.925932995419124,
+        "dihedral_max": 55.774438395330925,
+        "concave_max": 49.97438888270017,
+        "concave_over_20deg": 37,
+        "convex_over_30deg": 23
+       },
+       "wrists": {
+        "edges": 266,
+        "dihedral_p95": 38.497809613869535,
+        "dihedral_max": 69.29992333090696,
+        "concave_max": 69.29992333090696,
+        "concave_over_20deg": 9,
+        "convex_over_30deg": 24
+       },
+       "iliac_crest": {
+        "edges": 168,
+        "dihedral_p95": 32.92907642070853,
+        "dihedral_max": 131.79523449139862,
+        "concave_max": 131.79523449139862,
+        "concave_over_20deg": 10,
+        "convex_over_30deg": 9
+       },
+       "lateral_hips": {
+        "edges": 108,
+        "dihedral_p95": 30.031972602151924,
+        "dihedral_max": 40.05061039689947,
+        "concave_max": 32.86492374581365,
+        "concave_over_20deg": 3,
+        "convex_over_30deg": 5
+       },
+       "glute_apex": {
+        "edges": 225,
+        "dihedral_p95": 31.89146833338671,
+        "dihedral_max": 144.5628455465443,
+        "concave_max": 144.5628455465443,
+        "concave_over_20deg": 11,
+        "convex_over_30deg": 6
+       },
+       "inner_thighs": {
+        "edges": 131,
+        "dihedral_p95": 27.15661493173986,
+        "dihedral_max": 32.02990931976307,
+        "concave_max": 22.595593790167904,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 4
+       },
+       "lateral_thigh": {
+        "edges": 89,
+        "dihedral_p95": 36.494395144520354,
+        "dihedral_max": 92.08535798378006,
+        "concave_max": 92.08535798378006,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 10
+       },
+       "knees": {
+        "edges": 128,
+        "dihedral_p95": 91.47968104620216,
+        "dihedral_max": 149.9415254791953,
+        "concave_max": 132.99866298732877,
+        "concave_over_20deg": 19,
+        "convex_over_30deg": 28
+       },
+       "calves": {
+        "edges": 192,
+        "dihedral_p95": 40.12764929614069,
+        "dihedral_max": 48.44951859603276,
+        "concave_max": 12.650767172248624,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 26
+       },
+       "ankles": {
+        "edges": 146,
+        "dihedral_p95": 47.24993137824375,
+        "dihedral_max": 59.55904243772768,
+        "concave_max": 59.55904243772768,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 30
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03265728801488876,
+       "p05": -0.029207156412303446,
+       "median": -0.0056037388276308775,
+       "max": 0.03239920362830162,
+       "below_skin_count": 352,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "LOD03": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 33.86810513154232,
+        "crease_deg_mean": 18.7151534087489,
+        "crease_deg_p90": 31.801902695109582,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 64.56084716843395,
+        "crease_deg_mean": 24.065524790745318,
+        "crease_deg_p90": 50.58361307138711,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.398188773570258,
+        "crease_deg_mean": 11.268268505916087,
+        "crease_deg_p90": 16.180873590410364,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 288,
+        "dihedral_p95": 38.41179062881982,
+        "dihedral_max": 147.55989320216867,
+        "concave_max": 147.55989320216867,
+        "concave_over_20deg": 18,
+        "convex_over_30deg": 17
+       },
+       "chest": {
+        "edges": 444,
+        "dihedral_p95": 56.87209882071805,
+        "dihedral_max": 86.740079030643,
+        "concave_max": 86.740079030643,
+        "concave_over_20deg": 68,
+        "convex_over_30deg": 42
+       },
+       "waist_flank": {
+        "edges": 241,
+        "dihedral_p95": 49.27924046772733,
+        "dihedral_max": 86.740079030643,
+        "concave_max": 86.740079030643,
+        "concave_over_20deg": 25,
+        "convex_over_30deg": 34
+       },
+       "waist": {
+        "edges": 308,
+        "dihedral_p95": 42.5103006399149,
+        "dihedral_max": 68.80450662991977,
+        "concave_max": 68.80450662991977,
+        "concave_over_20deg": 31,
+        "convex_over_30deg": 26
+       },
+       "wrists": {
+        "edges": 218,
+        "dihedral_p95": 38.712063172030376,
+        "dihedral_max": 82.76708101755182,
+        "concave_max": 82.76708101755182,
+        "concave_over_20deg": 8,
+        "convex_over_30deg": 17
+       },
+       "iliac_crest": {
+        "edges": 143,
+        "dihedral_p95": 34.42899334172292,
+        "dihedral_max": 131.79523449139862,
+        "concave_max": 131.79523449139862,
+        "concave_over_20deg": 11,
+        "convex_over_30deg": 9
+       },
+       "lateral_hips": {
+        "edges": 57,
+        "dihedral_p95": 31.321547873422677,
+        "dihedral_max": 34.525533562014736,
+        "concave_max": 28.082616528231956,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 4
+       },
+       "glute_apex": {
+        "edges": 182,
+        "dihedral_p95": 42.39812723515716,
+        "dihedral_max": 144.5628455465443,
+        "concave_max": 144.5628455465443,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 13
+       },
+       "inner_thighs": {
+        "edges": 126,
+        "dihedral_p95": 27.30237553104249,
+        "dihedral_max": 32.02990931976307,
+        "concave_max": 21.222274419051068,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 6
+       },
+       "lateral_thigh": {
+        "edges": 68,
+        "dihedral_p95": 37.066914125703796,
+        "dihedral_max": 44.04841714081475,
+        "concave_max": 44.04841714081475,
+        "concave_over_20deg": 3,
+        "convex_over_30deg": 8
+       },
+       "knees": {
+        "edges": 84,
+        "dihedral_p95": 95.12439331299232,
+        "dihedral_max": 145.35765105526198,
+        "concave_max": 135.40301386034093,
+        "concave_over_20deg": 17,
+        "convex_over_30deg": 22
+       },
+       "calves": {
+        "edges": 160,
+        "dihedral_p95": 39.310494948201864,
+        "dihedral_max": 53.718903474131714,
+        "concave_max": 24.770197357005586,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 20
+       },
+       "ankles": {
+        "edges": 112,
+        "dihedral_p95": 51.52821511894567,
+        "dihedral_max": 65.90810341513249,
+        "concave_max": 65.90810341513249,
+        "concave_over_20deg": 17,
+        "convex_over_30deg": 24
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03265728801488876,
+       "p05": -0.029207156412303446,
+       "median": -0.0056037388276308775,
+       "max": 0.03239920362830162,
+       "below_skin_count": 352,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "lod_region_deviation": {
+      "shoulders": {
+       "LOD01": {
+        "p95": 0.00016594125700066794,
+        "max": 0.000529250770341605
+       },
+       "LOD02": {
+        "p95": 0.00042991139343939705,
+        "max": 0.0006060149171389639
+       },
+       "LOD03": {
+        "p95": 0.0012327058531809594,
+        "max": 0.0017450569430366158
+       }
+      },
+      "chest": {
+       "LOD01": {
+        "p95": 7.986041600815952e-05,
+        "max": 0.00022157574130687863
+       },
+       "LOD02": {
+        "p95": 0.00019842521578539163,
+        "max": 0.0005198879516683519
+       },
+       "LOD03": {
+        "p95": 0.0022553253802470863,
+        "max": 0.0028829011134803295
+       }
+      },
+      "waist_flank": {
+       "LOD01": {
+        "p95": 6.68669899823725e-05,
+        "max": 0.0003375966043677181
+       },
+       "LOD02": {
+        "p95": 0.00028617679199669486,
+        "max": 0.0011607040651142597
+       },
+       "LOD03": {
+        "p95": 0.002080776961520314,
+        "max": 0.002896415302529931
+       }
+      },
+      "waist": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 0.0
+       },
+       "LOD02": {
+        "p95": 0.00028638363291975103,
+        "max": 0.0009382703574374318
+       },
+       "LOD03": {
+        "p95": 0.001535806362517178,
+        "max": 0.002896415302529931
+       }
+      },
+      "iliac_crest": {
+       "LOD01": {
+        "p95": 0.0006122251943452284,
+        "max": 0.01247791014611721
+       },
+       "LOD02": {
+        "p95": 0.0015442937845364213,
+        "max": 0.01247791014611721
+       },
+       "LOD03": {
+        "p95": 0.0017138229915872208,
+        "max": 0.01247791014611721
+       }
+      },
+      "wrists": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 8.070600597420707e-05
+       },
+       "LOD02": {
+        "p95": 6.207122823980184e-05,
+        "max": 0.00018408242613077164
+       },
+       "LOD03": {
+        "p95": 0.0,
+        "max": 0.0005308929830789566
+       }
+      },
+      "lateral_hips": {
+       "LOD01": {
+        "p95": 0.0006945117493160068,
+        "max": 0.0010594939813017845
+       },
+       "LOD02": {
+        "p95": 0.001456627668812871,
+        "max": 0.001771843177266419
+       },
+       "LOD03": {
+        "p95": 0.0020068510842975226,
+        "max": 0.00211419933475554
+       }
+      },
+      "glute_apex": {
+       "LOD01": {
+        "p95": 0.0006891054217703638,
+        "max": 0.0016833338886499405
+       },
+       "LOD02": {
+        "p95": 0.001669239299371837,
+        "max": 0.0019271825440227985
+       },
+       "LOD03": {
+        "p95": 0.0020152045181021094,
+        "max": 0.003012588247656822
+       }
+      },
+      "inner_thighs": {
+       "LOD01": {
+        "p95": 0.0001016613587125903,
+        "max": 0.00021080391888972372
+       },
+       "LOD02": {
+        "p95": 0.0005376088432967662,
+        "max": 0.000694043526891619
+       },
+       "LOD03": {
+        "p95": 0.0005597311683231965,
+        "max": 0.0007150296587496996
+       }
+      },
+      "lateral_thigh": {
+       "LOD01": {
+        "p95": 0.0005763697437942028,
+        "max": 0.0008012058096937835
+       },
+       "LOD02": {
+        "p95": 0.001374018902424723,
+        "max": 0.0016343432944267988
+       },
+       "LOD03": {
+        "p95": 0.002075416501611471,
+        "max": 0.0029775770381093025
+       }
+      },
+      "knees": {
+       "LOD01": {
+        "p95": 0.0004928626469336444,
+        "max": 0.0011816609185189009
+       },
+       "LOD02": {
+        "p95": 0.001109150901902467,
+        "max": 0.0014149362687021494
+       },
+       "LOD03": {
+        "p95": 0.0029087143950164325,
+        "max": 0.003820830024778843
+       }
+      },
+      "calves": {
+       "LOD01": {
+        "p95": 0.0004942591913277283,
+        "max": 0.0007647184538654983
+       },
+       "LOD02": {
+        "p95": 0.0012372850673273202,
+        "max": 0.0018994869897142053
+       },
+       "LOD03": {
+        "p95": 0.0018255823815707117,
+        "max": 0.0019413318950682878
+       }
+      },
+      "ankles": {
+       "LOD01": {
+        "p95": 0.0005195083271246402,
+        "max": 0.0008222035830840468
+       },
+       "LOD02": {
+        "p95": 0.0008250607497757301,
+        "max": 0.0009416945395059884
+       },
+       "LOD03": {
+        "p95": 0.0010405828448710954,
+        "max": 0.0011969065526500344
+       }
+      }
+     }
+    },
+    "DIAG:torso_twist": {
+     "LOD00": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 31.722304964025895,
+        "crease_deg_mean": 18.33012275143118,
+        "crease_deg_p90": 28.606255084731785,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265285,
+        "crease_deg_mean": 26.612598547003937,
+        "crease_deg_p90": 48.787729463014465,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 2756,
+        "dihedral_p95": 16.186785511431655,
+        "dihedral_max": 30.791060090938604,
+        "concave_max": 29.453251793901515,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 905,
+        "dihedral_p95": 45.62905446168366,
+        "dihedral_max": 85.87204721529066,
+        "concave_max": 85.87204721529066,
+        "concave_over_20deg": 100,
+        "convex_over_30deg": 55
+       },
+       "waist_flank": {
+        "edges": 429,
+        "dihedral_p95": 43.77108840080407,
+        "dihedral_max": 157.28823214475005,
+        "concave_max": 100.83843818724627,
+        "concave_over_20deg": 37,
+        "convex_over_30deg": 35
+       },
+       "waist": {
+        "edges": 470,
+        "dihedral_p95": 41.260114256134294,
+        "dihedral_max": 157.28823214475005,
+        "concave_max": 100.83843818724627,
+        "concave_over_20deg": 40,
+        "convex_over_30deg": 37
+       },
+       "wrists": {
+        "edges": 342,
+        "dihedral_p95": 32.643593274525955,
+        "dihedral_max": 42.085922800283264,
+        "concave_max": 26.705001586182355,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 24
+       },
+       "iliac_crest": {
+        "edges": 519,
+        "dihedral_p95": 28.523997407487766,
+        "dihedral_max": 152.254076500423,
+        "concave_max": 152.254076500423,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 16
+       },
+       "lateral_hips": {
+        "edges": 451,
+        "dihedral_p95": 23.649715889072013,
+        "dihedral_max": 38.649656165550944,
+        "concave_max": 24.21205457749814,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 14
+       },
+       "glute_apex": {
+        "edges": 642,
+        "dihedral_p95": 25.932109980260453,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 16,
+        "convex_over_30deg": 14
+       },
+       "inner_thighs": {
+        "edges": 200,
+        "dihedral_p95": 27.785195093190925,
+        "dihedral_max": 40.20133509356207,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 10
+       },
+       "lateral_thigh": {
+        "edges": 244,
+        "dihedral_p95": 31.81433179866264,
+        "dihedral_max": 39.24023565735322,
+        "concave_max": 31.124206664945934,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 16
+       },
+       "knees": {
+        "edges": 384,
+        "dihedral_p95": 35.8399842653537,
+        "dihedral_max": 49.52360349263578,
+        "concave_max": 32.44374361258023,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 33
+       },
+       "calves": {
+        "edges": 380,
+        "dihedral_p95": 39.52029844004866,
+        "dihedral_max": 43.36609659513686,
+        "concave_max": 14.985444699171024,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 50
+       },
+       "ankles": {
+        "edges": 426,
+        "dihedral_p95": 34.992432360015975,
+        "dihedral_max": 54.98846954110813,
+        "concave_max": 38.2921931863869,
+        "concave_over_20deg": 30,
+        "convex_over_30deg": 42
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028961910400539637,
+       "median": -0.005157626001164317,
+       "max": 0.032405413687229156,
+       "below_skin_count": 343,
+       "hair_skin_triangle_overlaps": 248
+      }
+     },
+     "LOD01": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 31.722304964025895,
+        "crease_deg_mean": 18.33012275143118,
+        "crease_deg_p90": 28.606255084731785,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265285,
+        "crease_deg_mean": 26.612598547003937,
+        "crease_deg_p90": 48.787729463014465,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 1658,
+        "dihedral_p95": 17.857564895448252,
+        "dihedral_max": 30.83783875238812,
+        "concave_max": 29.441822769585734,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 831,
+        "dihedral_p95": 43.45332126531099,
+        "dihedral_max": 85.87204721529066,
+        "concave_max": 85.87204721529066,
+        "concave_over_20deg": 100,
+        "convex_over_30deg": 47
+       },
+       "waist_flank": {
+        "edges": 389,
+        "dihedral_p95": 45.68787239523645,
+        "dihedral_max": 157.28823214475005,
+        "concave_max": 100.83843818724627,
+        "concave_over_20deg": 38,
+        "convex_over_30deg": 36
+       },
+       "waist": {
+        "edges": 466,
+        "dihedral_p95": 41.27500678827087,
+        "dihedral_max": 157.28823214475005,
+        "concave_max": 100.83843818724627,
+        "concave_over_20deg": 40,
+        "convex_over_30deg": 37
+       },
+       "wrists": {
+        "edges": 324,
+        "dihedral_p95": 31.766218562735403,
+        "dihedral_max": 42.085922800283264,
+        "concave_max": 26.705001586182355,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 22
+       },
+       "iliac_crest": {
+        "edges": 283,
+        "dihedral_p95": 33.21094338101546,
+        "dihedral_max": 152.254076500423,
+        "concave_max": 152.254076500423,
+        "concave_over_20deg": 13,
+        "convex_over_30deg": 12
+       },
+       "lateral_hips": {
+        "edges": 258,
+        "dihedral_p95": 28.820711635773876,
+        "dihedral_max": 37.321270059051876,
+        "concave_max": 28.267658459168942,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 11
+       },
+       "glute_apex": {
+        "edges": 405,
+        "dihedral_p95": 33.92290744920097,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 19,
+        "convex_over_30deg": 16
+       },
+       "inner_thighs": {
+        "edges": 149,
+        "dihedral_p95": 28.993562407753565,
+        "dihedral_max": 37.27610061354604,
+        "concave_max": 20.38360591793691,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 8
+       },
+       "lateral_thigh": {
+        "edges": 153,
+        "dihedral_p95": 33.15202752197645,
+        "dihedral_max": 40.52434859634374,
+        "concave_max": 25.17322713820841,
+        "concave_over_20deg": 3,
+        "convex_over_30deg": 17
+       },
+       "knees": {
+        "edges": 249,
+        "dihedral_p95": 36.7386324145104,
+        "dihedral_max": 49.405836642984816,
+        "concave_max": 32.59818638941801,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 23
+       },
+       "calves": {
+        "edges": 280,
+        "dihedral_p95": 39.870478992403726,
+        "dihedral_max": 42.98913088537277,
+        "concave_max": 15.412586713640978,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 42
+       },
+       "ankles": {
+        "edges": 238,
+        "dihedral_p95": 37.99866861161644,
+        "dihedral_max": 54.839206557790526,
+        "concave_max": 36.33203644939071,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 28
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028903313912451267,
+       "median": -0.004921578569337726,
+       "max": 0.032405413687229156,
+       "below_skin_count": 339,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "LOD02": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.00499438139206,
+        "crease_deg_mean": 18.383908311786904,
+        "crease_deg_p90": 28.789419061833094,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265285,
+        "crease_deg_mean": 26.612598547003937,
+        "crease_deg_p90": 48.787729463014465,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 805,
+        "dihedral_p95": 21.434853243167982,
+        "dihedral_max": 32.484319609850566,
+        "concave_max": 32.484319609850566,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 702,
+        "dihedral_p95": 43.57014459725945,
+        "dihedral_max": 85.87204721529066,
+        "concave_max": 85.87204721529066,
+        "concave_over_20deg": 93,
+        "convex_over_30deg": 34
+       },
+       "waist_flank": {
+        "edges": 354,
+        "dihedral_p95": 41.80166705373998,
+        "dihedral_max": 159.47079177008337,
+        "concave_max": 100.24277321313045,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 30
+       },
+       "waist": {
+        "edges": 420,
+        "dihedral_p95": 40.44083794496553,
+        "dihedral_max": 159.47079177008337,
+        "concave_max": 100.24277321313045,
+        "concave_over_20deg": 36,
+        "convex_over_30deg": 35
+       },
+       "wrists": {
+        "edges": 266,
+        "dihedral_p95": 33.62005504571844,
+        "dihedral_max": 43.820804599767875,
+        "concave_max": 26.705001586182355,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 22
+       },
+       "iliac_crest": {
+        "edges": 168,
+        "dihedral_p95": 29.642679904526723,
+        "dihedral_max": 131.49601518750657,
+        "concave_max": 131.49601518750657,
+        "concave_over_20deg": 6,
+        "convex_over_30deg": 3
+       },
+       "lateral_hips": {
+        "edges": 108,
+        "dihedral_p95": 30.5931929491651,
+        "dihedral_max": 38.27447358479826,
+        "concave_max": 30.83472704822365,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 6
+       },
+       "glute_apex": {
+        "edges": 225,
+        "dihedral_p95": 34.09630245482339,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 11
+       },
+       "inner_thighs": {
+        "edges": 131,
+        "dihedral_p95": 26.543889138450595,
+        "dihedral_max": 32.02990931976305,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 4
+       },
+       "lateral_thigh": {
+        "edges": 89,
+        "dihedral_p95": 34.16731754791822,
+        "dihedral_max": 37.736900120653864,
+        "concave_max": 21.113345417218465,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 10
+       },
+       "knees": {
+        "edges": 128,
+        "dihedral_p95": 39.01758194670847,
+        "dihedral_max": 49.644162854436004,
+        "concave_max": 33.96522959868655,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 16
+       },
+       "calves": {
+        "edges": 192,
+        "dihedral_p95": 40.127649296140646,
+        "dihedral_max": 46.68435809651301,
+        "concave_max": 12.650767172248711,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 26
+       },
+       "ankles": {
+        "edges": 146,
+        "dihedral_p95": 42.991445702556035,
+        "dihedral_max": 51.06958554884252,
+        "concave_max": 43.0183992503686,
+        "concave_over_20deg": 18,
+        "convex_over_30deg": 30
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028961910400539637,
+       "median": -0.005076386267319322,
+       "max": 0.032405413687229156,
+       "below_skin_count": 342,
+       "hair_skin_triangle_overlaps": 259
+      }
+     },
+     "LOD03": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 33.42222246600746,
+        "crease_deg_mean": 18.653999716746654,
+        "crease_deg_p90": 29.970900608098162,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265285,
+        "crease_deg_mean": 26.612598547003937,
+        "crease_deg_p90": 48.787729463014465,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 288,
+        "dihedral_p95": 29.220535543026024,
+        "dihedral_max": 38.734527567545726,
+        "concave_max": 38.734527567545726,
+        "concave_over_20deg": 24,
+        "convex_over_30deg": 6
+       },
+       "chest": {
+        "edges": 444,
+        "dihedral_p95": 55.66828715714549,
+        "dihedral_max": 87.41401131040982,
+        "concave_max": 87.41401131040982,
+        "concave_over_20deg": 67,
+        "convex_over_30deg": 45
+       },
+       "waist_flank": {
+        "edges": 241,
+        "dihedral_p95": 70.28989948529261,
+        "dihedral_max": 153.80285545386764,
+        "concave_max": 152.88897298646614,
+        "concave_over_20deg": 23,
+        "convex_over_30deg": 35
+       },
+       "waist": {
+        "edges": 308,
+        "dihedral_p95": 58.36166034654647,
+        "dihedral_max": 153.80285545386764,
+        "concave_max": 152.88897298646614,
+        "concave_over_20deg": 33,
+        "convex_over_30deg": 37
+       },
+       "wrists": {
+        "edges": 218,
+        "dihedral_p95": 31.532517440214097,
+        "dihedral_max": 42.085922800283264,
+        "concave_max": 26.705001586182355,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 14
+       },
+       "iliac_crest": {
+        "edges": 143,
+        "dihedral_p95": 29.71095599911917,
+        "dihedral_max": 131.49601518750657,
+        "concave_max": 131.49601518750657,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 2
+       },
+       "lateral_hips": {
+        "edges": 57,
+        "dihedral_p95": 30.413886666677158,
+        "dihedral_max": 35.43456737770131,
+        "concave_max": 30.424558242134985,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 4
+       },
+       "glute_apex": {
+        "edges": 182,
+        "dihedral_p95": 42.89653187516407,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 15
+       },
+       "inner_thighs": {
+        "edges": 126,
+        "dihedral_p95": 26.734920289956662,
+        "dihedral_max": 32.02990931976305,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 6
+       },
+       "lateral_thigh": {
+        "edges": 68,
+        "dihedral_p95": 33.4685962637157,
+        "dihedral_max": 37.00761059758077,
+        "concave_max": 34.85161052444582,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 3
+       },
+       "knees": {
+        "edges": 84,
+        "dihedral_p95": 44.3383269379016,
+        "dihedral_max": 57.95864012020032,
+        "concave_max": 44.261334987253235,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 12
+       },
+       "calves": {
+        "edges": 160,
+        "dihedral_p95": 39.310494948201836,
+        "dihedral_max": 53.7189034741316,
+        "concave_max": 24.770197357005586,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 20
+       },
+       "ankles": {
+        "edges": 112,
+        "dihedral_p95": 46.74813591498774,
+        "dihedral_max": 56.0669026875995,
+        "concave_max": 44.36306867471425,
+        "concave_over_20deg": 16,
+        "convex_over_30deg": 26
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028903313912451267,
+       "median": -0.005376849556341767,
+       "max": 0.032405413687229156,
+       "below_skin_count": 347,
+       "hair_skin_triangle_overlaps": 259
+      }
+     },
+     "lod_region_deviation": {
+      "shoulders": {
+       "LOD01": {
+        "p95": 0.00015205418167170138,
+        "max": 0.00022124355018604547
+       },
+       "LOD02": {
+        "p95": 0.00042039057007059374,
+        "max": 0.0005893146153539419
+       },
+       "LOD03": {
+        "p95": 0.0010643606074154377,
+        "max": 0.0014748714165762067
+       }
+      },
+      "chest": {
+       "LOD01": {
+        "p95": 8.019284723559394e-05,
+        "max": 0.00022124355018604547
+       },
+       "LOD02": {
+        "p95": 0.00019870418909704305,
+        "max": 0.000520810775924474
+       },
+       "LOD03": {
+        "p95": 0.0022487646201625466,
+        "max": 0.00288254301995039
+       }
+      },
+      "waist_flank": {
+       "LOD01": {
+        "p95": 9.314255294157181e-05,
+        "max": 0.000356962758814916
+       },
+       "LOD02": {
+        "p95": 0.00030583620391553233,
+        "max": 0.001970181707292795
+       },
+       "LOD03": {
+        "p95": 0.0022690228652209044,
+        "max": 0.0029886108823120594
+       }
+      },
+      "waist": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 0.0
+       },
+       "LOD02": {
+        "p95": 0.0002957840741146355,
+        "max": 0.0010782313765957952
+       },
+       "LOD03": {
+        "p95": 0.0014878669870086014,
+        "max": 0.0029886108823120594
+       }
+      },
+      "iliac_crest": {
+       "LOD01": {
+        "p95": 0.0006326401635305956,
+        "max": 0.012367982417345047
+       },
+       "LOD02": {
+        "p95": 0.001574623119086027,
+        "max": 0.012367982417345047
+       },
+       "LOD03": {
+        "p95": 0.0020137244369834656,
+        "max": 0.012367982417345047
+       }
+      },
+      "wrists": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 7.459503831341863e-05
+       },
+       "LOD02": {
+        "p95": 8.070819603744917e-05,
+        "max": 0.0001776147837517783
+       },
+       "LOD03": {
+        "p95": 0.0,
+        "max": 0.0005222727195359766
+       }
+      },
+      "lateral_hips": {
+       "LOD01": {
+        "p95": 0.0006959147518500685,
+        "max": 0.0010470892302691936
+       },
+       "LOD02": {
+        "p95": 0.0015160234412178396,
+        "max": 0.0020185625180602074
+       },
+       "LOD03": {
+        "p95": 0.002047595544718206,
+        "max": 0.0021978740114718676
+       }
+      },
+      "glute_apex": {
+       "LOD01": {
+        "p95": 0.0007180822372902183,
+        "max": 0.0021084172185510397
+       },
+       "LOD02": {
+        "p95": 0.0016527234402019518,
+        "max": 0.0019704566802829504
+       },
+       "LOD03": {
+        "p95": 0.0021982673788443208,
+        "max": 0.0030064741149544716
+       }
+      },
+      "inner_thighs": {
+       "LOD01": {
+        "p95": 0.0001287984296141076,
+        "max": 0.00027520465664565563
+       },
+       "LOD02": {
+        "p95": 0.0005151959718205032,
+        "max": 0.0007264293963089585
+       },
+       "LOD03": {
+        "p95": 0.0005348667706130067,
+        "max": 0.0007264293963089585
+       }
+      },
+      "lateral_thigh": {
+       "LOD01": {
+        "p95": 0.0005821972416015343,
+        "max": 0.0008329421398229897
+       },
+       "LOD02": {
+        "p95": 0.0015296403726097196,
+        "max": 0.0018076155101880431
+       },
+       "LOD03": {
+        "p95": 0.0021343090338632464,
+        "max": 0.0028846499044448137
+       }
+      },
+      "knees": {
+       "LOD01": {
+        "p95": 0.0003458486782619728,
+        "max": 0.0004447281826287508
+       },
+       "LOD02": {
+        "p95": 0.000934785191202536,
+        "max": 0.0011749878758564591
+       },
+       "LOD03": {
+        "p95": 0.0022819236037321397,
+        "max": 0.0030333392787724733
+       }
+      },
+      "calves": {
+       "LOD01": {
+        "p95": 0.0004942593659507111,
+        "max": 0.0007639335235580802
+       },
+       "LOD02": {
+        "p95": 0.0012372760102152822,
+        "max": 0.0018994761630892754
+       },
+       "LOD03": {
+        "p95": 0.0018255715549457818,
+        "max": 0.0019413330592215061
+       }
+      },
+      "ankles": {
+       "LOD01": {
+        "p95": 0.00045624221093021333,
+        "max": 0.0008857176871970296
+       },
+       "LOD02": {
+        "p95": 0.0009746315481606871,
+        "max": 0.0010011809645220637
+       },
+       "LOD03": {
+        "p95": 0.0011525668669492006,
+        "max": 0.0018025260651484132
+       }
+      }
+     }
+    }
+   }
+  },
+  "fc2w": {
+   "lods": {
+    "rest": {
+     "LOD00": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 31.722304964025895,
+        "crease_deg_mean": 18.33012275143118,
+        "crease_deg_p90": 28.606255084731785,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265384,
+        "crease_deg_mean": 26.612598547003923,
+        "crease_deg_p90": 48.78772946301432,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 2756,
+        "dihedral_p95": 16.186785511431612,
+        "dihedral_max": 30.791060090938686,
+        "concave_max": 29.453251793901483,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 905,
+        "dihedral_p95": 45.825506338668944,
+        "dihedral_max": 83.69286832240684,
+        "concave_max": 83.69286832240684,
+        "concave_over_20deg": 96,
+        "convex_over_30deg": 49
+       },
+       "waist_flank": {
+        "edges": 429,
+        "dihedral_p95": 29.74073347937804,
+        "dihedral_max": 48.76766022731225,
+        "concave_max": 47.133432692163254,
+        "concave_over_20deg": 18,
+        "convex_over_30deg": 15
+       },
+       "waist": {
+        "edges": 470,
+        "dihedral_p95": 28.365298298596144,
+        "dihedral_max": 48.76766022731225,
+        "concave_max": 48.277176175941,
+        "concave_over_20deg": 23,
+        "convex_over_30deg": 10
+       },
+       "wrists": {
+        "edges": 342,
+        "dihedral_p95": 32.64359327452602,
+        "dihedral_max": 42.085922800283655,
+        "concave_max": 26.70500158618199,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 24
+       },
+       "iliac_crest": {
+        "edges": 519,
+        "dihedral_p95": 28.06402551317011,
+        "dihedral_max": 152.254076500423,
+        "concave_max": 152.254076500423,
+        "concave_over_20deg": 13,
+        "convex_over_30deg": 14
+       },
+       "lateral_hips": {
+        "edges": 451,
+        "dihedral_p95": 23.649715889072013,
+        "dihedral_max": 38.649656165550944,
+        "concave_max": 24.21205457749814,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 14
+       },
+       "glute_apex": {
+        "edges": 642,
+        "dihedral_p95": 25.932109980260453,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 16,
+        "convex_over_30deg": 14
+       },
+       "inner_thighs": {
+        "edges": 200,
+        "dihedral_p95": 27.785195093190925,
+        "dihedral_max": 40.20133509356207,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 10
+       },
+       "lateral_thigh": {
+        "edges": 244,
+        "dihedral_p95": 31.81433179866264,
+        "dihedral_max": 39.24023565735322,
+        "concave_max": 31.124206664945934,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 16
+       },
+       "knees": {
+        "edges": 384,
+        "dihedral_p95": 35.8399842653537,
+        "dihedral_max": 49.52360349263578,
+        "concave_max": 32.44374361258023,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 33
+       },
+       "calves": {
+        "edges": 380,
+        "dihedral_p95": 39.52029844004866,
+        "dihedral_max": 43.36609659513686,
+        "concave_max": 14.985444699171024,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 50
+       },
+       "ankles": {
+        "edges": 426,
+        "dihedral_p95": 34.992432360015975,
+        "dihedral_max": 54.98846954110813,
+        "concave_max": 38.2921931863869,
+        "concave_over_20deg": 30,
+        "convex_over_30deg": 42
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028961910400539637,
+       "median": -0.005157626001164317,
+       "max": 0.032405413687229156,
+       "below_skin_count": 343,
+       "hair_skin_triangle_overlaps": 248
+      }
+     },
+     "LOD01": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 31.722304964025895,
+        "crease_deg_mean": 18.33012275143118,
+        "crease_deg_p90": 28.606255084731785,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265384,
+        "crease_deg_mean": 26.612598547003923,
+        "crease_deg_p90": 48.78772946301432,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 1658,
+        "dihedral_p95": 17.857564895448505,
+        "dihedral_max": 30.837838752388176,
+        "concave_max": 29.441822769585723,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 831,
+        "dihedral_p95": 43.89976337328772,
+        "dihedral_max": 83.69286832240684,
+        "concave_max": 83.69286832240684,
+        "concave_over_20deg": 96,
+        "convex_over_30deg": 41
+       },
+       "waist_flank": {
+        "edges": 389,
+        "dihedral_p95": 29.96666115868811,
+        "dihedral_max": 48.76766022731225,
+        "concave_max": 47.133432692163254,
+        "concave_over_20deg": 18,
+        "convex_over_30deg": 14
+       },
+       "waist": {
+        "edges": 466,
+        "dihedral_p95": 28.365298303926917,
+        "dihedral_max": 48.76766022731225,
+        "concave_max": 48.277176175941,
+        "concave_over_20deg": 23,
+        "convex_over_30deg": 10
+       },
+       "wrists": {
+        "edges": 324,
+        "dihedral_p95": 31.76621856273653,
+        "dihedral_max": 42.085922800283655,
+        "concave_max": 26.70500158618199,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 22
+       },
+       "iliac_crest": {
+        "edges": 283,
+        "dihedral_p95": 32.41730937386887,
+        "dihedral_max": 152.254076500423,
+        "concave_max": 152.254076500423,
+        "concave_over_20deg": 13,
+        "convex_over_30deg": 10
+       },
+       "lateral_hips": {
+        "edges": 258,
+        "dihedral_p95": 28.88486645796093,
+        "dihedral_max": 36.72733959099021,
+        "concave_max": 28.267658459168942,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 12
+       },
+       "glute_apex": {
+        "edges": 405,
+        "dihedral_p95": 33.92290744920097,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 19,
+        "convex_over_30deg": 16
+       },
+       "inner_thighs": {
+        "edges": 149,
+        "dihedral_p95": 28.993562407753565,
+        "dihedral_max": 37.27610061354604,
+        "concave_max": 20.38360591793691,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 8
+       },
+       "lateral_thigh": {
+        "edges": 153,
+        "dihedral_p95": 33.15202752197645,
+        "dihedral_max": 40.52434859634374,
+        "concave_max": 25.17322713820841,
+        "concave_over_20deg": 3,
+        "convex_over_30deg": 17
+       },
+       "knees": {
+        "edges": 249,
+        "dihedral_p95": 36.7386324145104,
+        "dihedral_max": 49.405836642984816,
+        "concave_max": 32.59818638941801,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 23
+       },
+       "calves": {
+        "edges": 280,
+        "dihedral_p95": 39.870478992403726,
+        "dihedral_max": 42.98913088537277,
+        "concave_max": 15.412586713640978,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 42
+       },
+       "ankles": {
+        "edges": 238,
+        "dihedral_p95": 37.99866861161613,
+        "dihedral_max": 54.83920655779028,
+        "concave_max": 36.332036449390806,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 28
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028903313912451267,
+       "median": -0.004921578569337726,
+       "max": 0.032405413687229156,
+       "below_skin_count": 339,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "LOD02": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.00499438139206,
+        "crease_deg_mean": 18.383908311786904,
+        "crease_deg_p90": 28.789419061833094,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265384,
+        "crease_deg_mean": 26.612598547003923,
+        "crease_deg_p90": 48.78772946301432,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 805,
+        "dihedral_p95": 21.434853243167925,
+        "dihedral_max": 32.48431960985037,
+        "concave_max": 32.48431960985037,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 702,
+        "dihedral_p95": 44.464561506856896,
+        "dihedral_max": 83.69286832240684,
+        "concave_max": 83.69286832240684,
+        "concave_over_20deg": 93,
+        "convex_over_30deg": 29
+       },
+       "waist_flank": {
+        "edges": 354,
+        "dihedral_p95": 30.178963801935726,
+        "dihedral_max": 48.59487005476999,
+        "concave_max": 47.133432692163254,
+        "concave_over_20deg": 15,
+        "convex_over_30deg": 12
+       },
+       "waist": {
+        "edges": 420,
+        "dihedral_p95": 28.9737738353233,
+        "dihedral_max": 48.59487005476999,
+        "concave_max": 44.793944844795405,
+        "concave_over_20deg": 17,
+        "convex_over_30deg": 10
+       },
+       "wrists": {
+        "edges": 266,
+        "dihedral_p95": 33.62005504571843,
+        "dihedral_max": 43.82080459976774,
+        "concave_max": 26.70500158618199,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 22
+       },
+       "iliac_crest": {
+        "edges": 168,
+        "dihedral_p95": 29.118489267929895,
+        "dihedral_max": 131.49601518750657,
+        "concave_max": 131.49601518750657,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 2
+       },
+       "lateral_hips": {
+        "edges": 108,
+        "dihedral_p95": 30.81303125821728,
+        "dihedral_max": 38.27447358479826,
+        "concave_max": 30.83472704822365,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 6
+       },
+       "glute_apex": {
+        "edges": 225,
+        "dihedral_p95": 34.09630245482339,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 11
+       },
+       "inner_thighs": {
+        "edges": 131,
+        "dihedral_p95": 26.543889138450595,
+        "dihedral_max": 32.02990931976305,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 4
+       },
+       "lateral_thigh": {
+        "edges": 89,
+        "dihedral_p95": 34.16731754791822,
+        "dihedral_max": 37.736900120653935,
+        "concave_max": 21.113345417218465,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 10
+       },
+       "knees": {
+        "edges": 128,
+        "dihedral_p95": 39.01758194670847,
+        "dihedral_max": 49.644162854436004,
+        "concave_max": 33.96522959868655,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 16
+       },
+       "calves": {
+        "edges": 192,
+        "dihedral_p95": 40.127649296140646,
+        "dihedral_max": 46.68435809651301,
+        "concave_max": 12.650767172248711,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 26
+       },
+       "ankles": {
+        "edges": 146,
+        "dihedral_p95": 42.991445702556,
+        "dihedral_max": 51.06958554884252,
+        "concave_max": 43.018399250368695,
+        "concave_over_20deg": 18,
+        "convex_over_30deg": 30
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028961910400539637,
+       "median": -0.005076386267319322,
+       "max": 0.032405413687229156,
+       "below_skin_count": 342,
+       "hair_skin_triangle_overlaps": 259
+      }
+     },
+     "LOD03": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 33.42222246600746,
+        "crease_deg_mean": 18.653999716746654,
+        "crease_deg_p90": 29.970900608098162,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265384,
+        "crease_deg_mean": 26.612598547003923,
+        "crease_deg_p90": 48.78772946301432,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 288,
+        "dihedral_p95": 29.220535543025907,
+        "dihedral_max": 38.734527567545825,
+        "concave_max": 38.734527567545825,
+        "concave_over_20deg": 24,
+        "convex_over_30deg": 6
+       },
+       "chest": {
+        "edges": 444,
+        "dihedral_p95": 53.76760841781363,
+        "dihedral_max": 87.41401131040982,
+        "concave_max": 87.41401131040982,
+        "concave_over_20deg": 67,
+        "convex_over_30deg": 44
+       },
+       "waist_flank": {
+        "edges": 241,
+        "dihedral_p95": 34.31623979901771,
+        "dihedral_max": 78.1279627751751,
+        "concave_max": 78.1279627751751,
+        "concave_over_20deg": 11,
+        "convex_over_30deg": 19
+       },
+       "waist": {
+        "edges": 308,
+        "dihedral_p95": 30.888974577842788,
+        "dihedral_max": 50.494682014317135,
+        "concave_max": 48.129617425519164,
+        "concave_over_20deg": 13,
+        "convex_over_30deg": 11
+       },
+       "wrists": {
+        "edges": 218,
+        "dihedral_p95": 31.53251744021365,
+        "dihedral_max": 42.085922800283655,
+        "concave_max": 26.70500158618199,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 14
+       },
+       "iliac_crest": {
+        "edges": 143,
+        "dihedral_p95": 29.576779711805855,
+        "dihedral_max": 131.49601518750657,
+        "concave_max": 131.49601518750657,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 2
+       },
+       "lateral_hips": {
+        "edges": 57,
+        "dihedral_p95": 30.413886666677108,
+        "dihedral_max": 35.43456737770131,
+        "concave_max": 30.424558242134946,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 4
+       },
+       "glute_apex": {
+        "edges": 182,
+        "dihedral_p95": 42.89653187516407,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 15
+       },
+       "inner_thighs": {
+        "edges": 126,
+        "dihedral_p95": 26.734920289956662,
+        "dihedral_max": 32.02990931976305,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 6
+       },
+       "lateral_thigh": {
+        "edges": 68,
+        "dihedral_p95": 33.4685962637157,
+        "dihedral_max": 37.00761059758077,
+        "concave_max": 34.85161052444582,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 3
+       },
+       "knees": {
+        "edges": 84,
+        "dihedral_p95": 44.3383269379016,
+        "dihedral_max": 57.958640120200364,
+        "concave_max": 44.261334987253235,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 12
+       },
+       "calves": {
+        "edges": 160,
+        "dihedral_p95": 39.310494948201836,
+        "dihedral_max": 53.7189034741316,
+        "concave_max": 24.770197357005586,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 20
+       },
+       "ankles": {
+        "edges": 112,
+        "dihedral_p95": 46.74813591498774,
+        "dihedral_max": 56.06690268759923,
+        "concave_max": 44.36306867471433,
+        "concave_over_20deg": 16,
+        "convex_over_30deg": 26
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028903313912451267,
+       "median": -0.005376849556341767,
+       "max": 0.032405413687229156,
+       "below_skin_count": 347,
+       "hair_skin_triangle_overlaps": 259
+      }
+     },
+     "lod_region_deviation": {
+      "shoulders": {
+       "LOD01": {
+        "p95": 0.00015205967210931703,
+        "max": 0.0002212617255281657
+       },
+       "LOD02": {
+        "p95": 0.0004203908436466,
+        "max": 0.0005893149063922465
+       },
+       "LOD03": {
+        "p95": 0.001064361073076725,
+        "max": 0.001474873162806034
+       }
+      },
+      "chest": {
+       "LOD01": {
+        "p95": 8.01867718109861e-05,
+        "max": 0.0002212617255281657
+       },
+       "LOD02": {
+        "p95": 0.0002119792974554002,
+        "max": 0.0005206071655265987
+       },
+       "LOD03": {
+        "p95": 0.002253527636639774,
+        "max": 0.002889487659558654
+       }
+      },
+      "waist_flank": {
+       "LOD01": {
+        "p95": 6.109781825216463e-05,
+        "max": 0.00034640144440345466
+       },
+       "LOD02": {
+        "p95": 0.0002749386476352811,
+        "max": 0.0004903175286017358
+       },
+       "LOD03": {
+        "p95": 0.0019886670634150505,
+        "max": 0.0026975583750754595
+       }
+      },
+      "waist": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 0.0
+       },
+       "LOD02": {
+        "p95": 0.00031307533208746447,
+        "max": 0.0004903175286017358
+       },
+       "LOD03": {
+        "p95": 0.0016140097868628796,
+        "max": 0.0026975583750754595
+       }
+      },
+      "iliac_crest": {
+       "LOD01": {
+        "p95": 0.0006326401635305956,
+        "max": 0.012367982417345047
+       },
+       "LOD02": {
+        "p95": 0.0015677068149670959,
+        "max": 0.012367982417345047
+       },
+       "LOD03": {
+        "p95": 0.0020115363062359385,
+        "max": 0.012367982417345047
+       }
+      },
+      "wrists": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 7.459291373379529e-05
+       },
+       "LOD02": {
+        "p95": 8.070976255112351e-05,
+        "max": 0.00017759710317477584
+       },
+       "LOD03": {
+        "p95": 0.0,
+        "max": 0.0005222791223786771
+       }
+      },
+      "lateral_hips": {
+       "LOD01": {
+        "p95": 0.0006959147518500685,
+        "max": 0.0010470892302691936
+       },
+       "LOD02": {
+        "p95": 0.0015160234412178396,
+        "max": 0.0020185625180602074
+       },
+       "LOD03": {
+        "p95": 0.002047595544718206,
+        "max": 0.0021978740114718676
+       }
+      },
+      "glute_apex": {
+       "LOD01": {
+        "p95": 0.0007180822372902183,
+        "max": 0.0021084172185510397
+       },
+       "LOD02": {
+        "p95": 0.0016527234402019518,
+        "max": 0.0019704566802829504
+       },
+       "LOD03": {
+        "p95": 0.0021982673788443208,
+        "max": 0.0030064741149544716
+       }
+      },
+      "inner_thighs": {
+       "LOD01": {
+        "p95": 0.0001287984296141076,
+        "max": 0.00027520465664565563
+       },
+       "LOD02": {
+        "p95": 0.0005151959718205032,
+        "max": 0.0007264293963089585
+       },
+       "LOD03": {
+        "p95": 0.0005348667706130067,
+        "max": 0.0007264293963089585
+       }
+      },
+      "lateral_thigh": {
+       "LOD01": {
+        "p95": 0.0005821972416015343,
+        "max": 0.0008329421398229897
+       },
+       "LOD02": {
+        "p95": 0.0015296403726097196,
+        "max": 0.0018076155101880431
+       },
+       "LOD03": {
+        "p95": 0.0021343090338632464,
+        "max": 0.0028846499044448137
+       }
+      },
+      "knees": {
+       "LOD01": {
+        "p95": 0.0003458486782619728,
+        "max": 0.0004447281826287508
+       },
+       "LOD02": {
+        "p95": 0.000934785191202536,
+        "max": 0.0011749878758564591
+       },
+       "LOD03": {
+        "p95": 0.0022819236037321397,
+        "max": 0.0030333392787724733
+       }
+      },
+      "calves": {
+       "LOD01": {
+        "p95": 0.0004942593659507111,
+        "max": 0.0007639335235580802
+       },
+       "LOD02": {
+        "p95": 0.0012372760102152822,
+        "max": 0.0018994761630892754
+       },
+       "LOD03": {
+        "p95": 0.0018255715549457818,
+        "max": 0.0019413330592215061
+       }
+      },
+      "ankles": {
+       "LOD01": {
+        "p95": 0.00045624221093021333,
+        "max": 0.0008857176871970296
+       },
+       "LOD02": {
+        "p95": 0.0009746315481606871,
+        "max": 0.0010011809645220637
+       },
+       "LOD03": {
+        "p95": 0.0011525668669492006,
+        "max": 0.0018025260651484132
+       }
+      }
+     }
+    },
+    "HUF_BAS_STAND:0": {
+     "LOD00": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.72622227591487,
+        "crease_deg_mean": 18.392120699918323,
+        "crease_deg_p90": 30.324431206440153,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 64.56084716843395,
+        "crease_deg_mean": 24.065524790745318,
+        "crease_deg_p90": 50.58361307138711,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.398188773570258,
+        "crease_deg_mean": 11.268268505916087,
+        "crease_deg_p90": 16.180873590410364,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 2756,
+        "dihedral_p95": 18.363033797200778,
+        "dihedral_max": 71.70395456012811,
+        "concave_max": 71.70395456012811,
+        "concave_over_20deg": 45,
+        "convex_over_30deg": 4
+       },
+       "chest": {
+        "edges": 905,
+        "dihedral_p95": 45.0439395983486,
+        "dihedral_max": 86.2453802090528,
+        "concave_max": 86.2453802090528,
+        "concave_over_20deg": 97,
+        "convex_over_30deg": 56
+       },
+       "waist_flank": {
+        "edges": 429,
+        "dihedral_p95": 35.91479513198162,
+        "dihedral_max": 56.34864675502425,
+        "concave_max": 48.79371983014148,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 29
+       },
+       "waist": {
+        "edges": 470,
+        "dihedral_p95": 37.611989720688534,
+        "dihedral_max": 56.34864675502425,
+        "concave_max": 48.88453248512493,
+        "concave_over_20deg": 40,
+        "convex_over_30deg": 29
+       },
+       "wrists": {
+        "edges": 342,
+        "dihedral_p95": 37.69319727306911,
+        "dihedral_max": 63.47927560256915,
+        "concave_max": 63.47927560256915,
+        "concave_over_20deg": 9,
+        "convex_over_30deg": 25
+       },
+       "iliac_crest": {
+        "edges": 519,
+        "dihedral_p95": 31.311885673899003,
+        "dihedral_max": 152.4256947408779,
+        "concave_max": 152.4256947408779,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 18
+       },
+       "lateral_hips": {
+        "edges": 451,
+        "dihedral_p95": 25.535898611747875,
+        "dihedral_max": 103.40964648101381,
+        "concave_max": 103.40964648101381,
+        "concave_over_20deg": 9,
+        "convex_over_30deg": 12
+       },
+       "glute_apex": {
+        "edges": 642,
+        "dihedral_p95": 22.767486919185778,
+        "dihedral_max": 152.4256947408779,
+        "concave_max": 152.4256947408779,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 9
+       },
+       "inner_thighs": {
+        "edges": 200,
+        "dihedral_p95": 27.527615702842297,
+        "dihedral_max": 40.235729647345096,
+        "concave_max": 13.547524726362427,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 10
+       },
+       "lateral_thigh": {
+        "edges": 244,
+        "dihedral_p95": 31.930117901194098,
+        "dihedral_max": 39.32194757772283,
+        "concave_max": 37.14248053093454,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 16
+       },
+       "knees": {
+        "edges": 384,
+        "dihedral_p95": 41.96397818201623,
+        "dihedral_max": 158.13662122913183,
+        "concave_max": 158.13662122913183,
+        "concave_over_20deg": 24,
+        "convex_over_30deg": 39
+       },
+       "calves": {
+        "edges": 380,
+        "dihedral_p95": 39.52029844004866,
+        "dihedral_max": 43.36609659513687,
+        "concave_max": 16.222696554272428,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 50
+       },
+       "ankles": {
+        "edges": 426,
+        "dihedral_p95": 38.662102631841094,
+        "dihedral_max": 58.94960208492212,
+        "concave_max": 58.94960208492212,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 43
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03265728801488876,
+       "p05": -0.029173924028873442,
+       "median": -0.005768120987340808,
+       "max": 0.03239920362830162,
+       "below_skin_count": 354,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "LOD01": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.72622227591487,
+        "crease_deg_mean": 18.392120699918323,
+        "crease_deg_p90": 30.324431206440153,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 64.56084716843395,
+        "crease_deg_mean": 24.065524790745318,
+        "crease_deg_p90": 50.58361307138711,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.398188773570258,
+        "crease_deg_mean": 11.268268505916087,
+        "crease_deg_p90": 16.180873590410364,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 1658,
+        "dihedral_p95": 21.037373107862354,
+        "dihedral_max": 71.03532461420428,
+        "concave_max": 71.03532461420428,
+        "concave_over_20deg": 44,
+        "convex_over_30deg": 4
+       },
+       "chest": {
+        "edges": 831,
+        "dihedral_p95": 43.03151361525608,
+        "dihedral_max": 86.2453802090528,
+        "concave_max": 86.2453802090528,
+        "concave_over_20deg": 98,
+        "convex_over_30deg": 50
+       },
+       "waist_flank": {
+        "edges": 389,
+        "dihedral_p95": 37.48717123627267,
+        "dihedral_max": 56.34864675502425,
+        "concave_max": 48.79371983014148,
+        "concave_over_20deg": 30,
+        "convex_over_30deg": 28
+       },
+       "waist": {
+        "edges": 466,
+        "dihedral_p95": 37.62617987059265,
+        "dihedral_max": 56.34864675502425,
+        "concave_max": 48.88453248512493,
+        "concave_over_20deg": 40,
+        "convex_over_30deg": 29
+       },
+       "wrists": {
+        "edges": 324,
+        "dihedral_p95": 37.197490458806186,
+        "dihedral_max": 65.37027963292697,
+        "concave_max": 65.37027963292697,
+        "concave_over_20deg": 9,
+        "convex_over_30deg": 23
+       },
+       "iliac_crest": {
+        "edges": 283,
+        "dihedral_p95": 37.40955608718988,
+        "dihedral_max": 152.4256947408779,
+        "concave_max": 152.4256947408779,
+        "concave_over_20deg": 20,
+        "convex_over_30deg": 19
+       },
+       "lateral_hips": {
+        "edges": 258,
+        "dihedral_p95": 28.06776502755325,
+        "dihedral_max": 52.69755467372843,
+        "concave_max": 52.69755467372843,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 9
+       },
+       "glute_apex": {
+        "edges": 405,
+        "dihedral_p95": 27.779425517971916,
+        "dihedral_max": 152.4256947408779,
+        "concave_max": 152.4256947408779,
+        "concave_over_20deg": 15,
+        "convex_over_30deg": 9
+       },
+       "inner_thighs": {
+        "edges": 149,
+        "dihedral_p95": 29.574384530931155,
+        "dihedral_max": 37.58125108302784,
+        "concave_max": 32.60771693771929,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 7
+       },
+       "lateral_thigh": {
+        "edges": 153,
+        "dihedral_p95": 34.1947039967471,
+        "dihedral_max": 40.072275809946966,
+        "concave_max": 28.902342497009975,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 16
+       },
+       "knees": {
+        "edges": 249,
+        "dihedral_p95": 50.2490112707837,
+        "dihedral_max": 155.9217586203573,
+        "concave_max": 155.9217586203573,
+        "concave_over_20deg": 26,
+        "convex_over_30deg": 35
+       },
+       "calves": {
+        "edges": 280,
+        "dihedral_p95": 39.87047899240364,
+        "dihedral_max": 42.98913088537281,
+        "concave_max": 15.412586713641169,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 42
+       },
+       "ankles": {
+        "edges": 238,
+        "dihedral_p95": 43.63114663082225,
+        "dihedral_max": 65.04233238027614,
+        "concave_max": 65.04233238027614,
+        "concave_over_20deg": 38,
+        "convex_over_30deg": 34
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03265728801488876,
+       "p05": -0.02921710079535842,
+       "median": -0.005559081444516778,
+       "max": 0.03239920362830162,
+       "below_skin_count": 350,
+       "hair_skin_triangle_overlaps": 253
+      }
+     },
+     "LOD02": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.91577325742963,
+        "crease_deg_mean": 18.44576672756738,
+        "crease_deg_p90": 30.609395591874545,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 64.56084716843395,
+        "crease_deg_mean": 24.065524790745318,
+        "crease_deg_p90": 50.58361307138711,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.398188773570258,
+        "crease_deg_mean": 11.268268505916087,
+        "crease_deg_p90": 16.180873590410364,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 805,
+        "dihedral_p95": 25.01791813286049,
+        "dihedral_max": 137.7369794629546,
+        "concave_max": 137.7369794629546,
+        "concave_over_20deg": 39,
+        "convex_over_30deg": 5
+       },
+       "chest": {
+        "edges": 702,
+        "dihedral_p95": 44.973832810898195,
+        "dihedral_max": 86.2453802090528,
+        "concave_max": 86.2453802090528,
+        "concave_over_20deg": 91,
+        "convex_over_30deg": 36
+       },
+       "waist_flank": {
+        "edges": 354,
+        "dihedral_p95": 36.55857729850725,
+        "dihedral_max": 56.16407891501307,
+        "concave_max": 50.616076644855646,
+        "concave_over_20deg": 26,
+        "convex_over_30deg": 24
+       },
+       "waist": {
+        "edges": 420,
+        "dihedral_p95": 37.406836002102025,
+        "dihedral_max": 56.16407891501307,
+        "concave_max": 50.616076644855646,
+        "concave_over_20deg": 38,
+        "convex_over_30deg": 22
+       },
+       "wrists": {
+        "edges": 266,
+        "dihedral_p95": 38.497809613869535,
+        "dihedral_max": 69.29992333090696,
+        "concave_max": 69.29992333090696,
+        "concave_over_20deg": 9,
+        "convex_over_30deg": 24
+       },
+       "iliac_crest": {
+        "edges": 168,
+        "dihedral_p95": 32.92907642070853,
+        "dihedral_max": 131.79523449139862,
+        "concave_max": 131.79523449139862,
+        "concave_over_20deg": 10,
+        "convex_over_30deg": 9
+       },
+       "lateral_hips": {
+        "edges": 108,
+        "dihedral_p95": 30.031972602151924,
+        "dihedral_max": 40.05061039689947,
+        "concave_max": 32.86492374581365,
+        "concave_over_20deg": 3,
+        "convex_over_30deg": 5
+       },
+       "glute_apex": {
+        "edges": 225,
+        "dihedral_p95": 31.89146833338671,
+        "dihedral_max": 144.5628455465443,
+        "concave_max": 144.5628455465443,
+        "concave_over_20deg": 11,
+        "convex_over_30deg": 6
+       },
+       "inner_thighs": {
+        "edges": 131,
+        "dihedral_p95": 27.15661493173986,
+        "dihedral_max": 32.02990931976307,
+        "concave_max": 22.595593790167904,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 4
+       },
+       "lateral_thigh": {
+        "edges": 89,
+        "dihedral_p95": 36.494395144520354,
+        "dihedral_max": 92.08535798378006,
+        "concave_max": 92.08535798378006,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 10
+       },
+       "knees": {
+        "edges": 128,
+        "dihedral_p95": 91.47968104620216,
+        "dihedral_max": 149.9415254791953,
+        "concave_max": 132.99866298732877,
+        "concave_over_20deg": 19,
+        "convex_over_30deg": 28
+       },
+       "calves": {
+        "edges": 192,
+        "dihedral_p95": 40.12764929614069,
+        "dihedral_max": 48.44951859603276,
+        "concave_max": 12.650767172248624,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 26
+       },
+       "ankles": {
+        "edges": 146,
+        "dihedral_p95": 47.24993137824375,
+        "dihedral_max": 59.55904243772768,
+        "concave_max": 59.55904243772768,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 30
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03265728801488876,
+       "p05": -0.029207156412303446,
+       "median": -0.0056037388276308775,
+       "max": 0.03239920362830162,
+       "below_skin_count": 352,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "LOD03": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 33.86810513154232,
+        "crease_deg_mean": 18.7151534087489,
+        "crease_deg_p90": 31.801902695109582,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 64.56084716843395,
+        "crease_deg_mean": 24.065524790745318,
+        "crease_deg_p90": 50.58361307138711,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.398188773570258,
+        "crease_deg_mean": 11.268268505916087,
+        "crease_deg_p90": 16.180873590410364,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 288,
+        "dihedral_p95": 38.41179062881982,
+        "dihedral_max": 147.55989320216867,
+        "concave_max": 147.55989320216867,
+        "concave_over_20deg": 18,
+        "convex_over_30deg": 17
+       },
+       "chest": {
+        "edges": 444,
+        "dihedral_p95": 56.87209882071805,
+        "dihedral_max": 86.14885623009665,
+        "concave_max": 86.14885623009665,
+        "concave_over_20deg": 67,
+        "convex_over_30deg": 42
+       },
+       "waist_flank": {
+        "edges": 241,
+        "dihedral_p95": 47.25796585782166,
+        "dihedral_max": 87.72027784543162,
+        "concave_max": 78.94178975424794,
+        "concave_over_20deg": 20,
+        "convex_over_30deg": 33
+       },
+       "waist": {
+        "edges": 308,
+        "dihedral_p95": 42.31815349181331,
+        "dihedral_max": 127.83369638568877,
+        "concave_max": 127.83369638568877,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 26
+       },
+       "wrists": {
+        "edges": 218,
+        "dihedral_p95": 38.712063172030376,
+        "dihedral_max": 82.76708101755182,
+        "concave_max": 82.76708101755182,
+        "concave_over_20deg": 8,
+        "convex_over_30deg": 17
+       },
+       "iliac_crest": {
+        "edges": 143,
+        "dihedral_p95": 34.42899334172292,
+        "dihedral_max": 131.79523449139862,
+        "concave_max": 131.79523449139862,
+        "concave_over_20deg": 11,
+        "convex_over_30deg": 9
+       },
+       "lateral_hips": {
+        "edges": 57,
+        "dihedral_p95": 31.321547873422677,
+        "dihedral_max": 34.525533562014736,
+        "concave_max": 28.082616528231956,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 4
+       },
+       "glute_apex": {
+        "edges": 182,
+        "dihedral_p95": 42.39812723515716,
+        "dihedral_max": 144.5628455465443,
+        "concave_max": 144.5628455465443,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 13
+       },
+       "inner_thighs": {
+        "edges": 126,
+        "dihedral_p95": 27.30237553104249,
+        "dihedral_max": 32.02990931976307,
+        "concave_max": 21.222274419051068,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 6
+       },
+       "lateral_thigh": {
+        "edges": 68,
+        "dihedral_p95": 37.066914125703796,
+        "dihedral_max": 44.04841714081475,
+        "concave_max": 44.04841714081475,
+        "concave_over_20deg": 3,
+        "convex_over_30deg": 8
+       },
+       "knees": {
+        "edges": 84,
+        "dihedral_p95": 95.12439331299232,
+        "dihedral_max": 145.35765105526198,
+        "concave_max": 135.40301386034093,
+        "concave_over_20deg": 17,
+        "convex_over_30deg": 22
+       },
+       "calves": {
+        "edges": 160,
+        "dihedral_p95": 39.310494948201864,
+        "dihedral_max": 53.718903474131714,
+        "concave_max": 24.770197357005586,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 20
+       },
+       "ankles": {
+        "edges": 112,
+        "dihedral_p95": 51.52821511894567,
+        "dihedral_max": 65.90810341513249,
+        "concave_max": 65.90810341513249,
+        "concave_over_20deg": 17,
+        "convex_over_30deg": 24
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03265728801488876,
+       "p05": -0.029207156412303446,
+       "median": -0.0056037388276308775,
+       "max": 0.03239920362830162,
+       "below_skin_count": 352,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "lod_region_deviation": {
+      "shoulders": {
+       "LOD01": {
+        "p95": 0.00016594125700066794,
+        "max": 0.000529250770341605
+       },
+       "LOD02": {
+        "p95": 0.00042991139343939705,
+        "max": 0.0006060149171389639
+       },
+       "LOD03": {
+        "p95": 0.0012327058531809594,
+        "max": 0.0017450569430366158
+       }
+      },
+      "chest": {
+       "LOD01": {
+        "p95": 7.267532055266201e-05,
+        "max": 0.00022157574130687863
+       },
+       "LOD02": {
+        "p95": 0.00019885392248397693,
+        "max": 0.0005198879516683519
+       },
+       "LOD03": {
+        "p95": 0.0022553253802470863,
+        "max": 0.0028829011134803295
+       }
+      },
+      "waist_flank": {
+       "LOD01": {
+        "p95": 4.7605061809008374e-05,
+        "max": 0.0003369950281921774
+       },
+       "LOD02": {
+        "p95": 0.0002863756308215668,
+        "max": 0.0011607040651142597
+       },
+       "LOD03": {
+        "p95": 0.002054903656244278,
+        "max": 0.002896415302529931
+       }
+      },
+      "waist": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 0.0
+       },
+       "LOD02": {
+        "p95": 0.000291925526107661,
+        "max": 0.0009037922718562186
+       },
+       "LOD03": {
+        "p95": 0.0015354305854998528,
+        "max": 0.002896415302529931
+       }
+      },
+      "iliac_crest": {
+       "LOD01": {
+        "p95": 0.0006122251943452284,
+        "max": 0.01247791014611721
+       },
+       "LOD02": {
+        "p95": 0.0015442937845364213,
+        "max": 0.01247791014611721
+       },
+       "LOD03": {
+        "p95": 0.0017138229915872208,
+        "max": 0.01247791014611721
+       }
+      },
+      "wrists": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 8.070600597420707e-05
+       },
+       "LOD02": {
+        "p95": 6.207122823980184e-05,
+        "max": 0.00018408242613077164
+       },
+       "LOD03": {
+        "p95": 0.0,
+        "max": 0.0005308929830789566
+       }
+      },
+      "lateral_hips": {
+       "LOD01": {
+        "p95": 0.0006945117493160068,
+        "max": 0.0010594939813017845
+       },
+       "LOD02": {
+        "p95": 0.001456627668812871,
+        "max": 0.001771843177266419
+       },
+       "LOD03": {
+        "p95": 0.0020068510842975226,
+        "max": 0.00211419933475554
+       }
+      },
+      "glute_apex": {
+       "LOD01": {
+        "p95": 0.0006891054217703638,
+        "max": 0.0016833338886499405
+       },
+       "LOD02": {
+        "p95": 0.001669239299371837,
+        "max": 0.0019271825440227985
+       },
+       "LOD03": {
+        "p95": 0.0020152045181021094,
+        "max": 0.003012588247656822
+       }
+      },
+      "inner_thighs": {
+       "LOD01": {
+        "p95": 0.0001016613587125903,
+        "max": 0.00021080391888972372
+       },
+       "LOD02": {
+        "p95": 0.0005376088432967662,
+        "max": 0.000694043526891619
+       },
+       "LOD03": {
+        "p95": 0.0005597311683231965,
+        "max": 0.0007150296587496996
+       }
+      },
+      "lateral_thigh": {
+       "LOD01": {
+        "p95": 0.0005763697437942028,
+        "max": 0.0008012058096937835
+       },
+       "LOD02": {
+        "p95": 0.001374018902424723,
+        "max": 0.0016343432944267988
+       },
+       "LOD03": {
+        "p95": 0.002075416501611471,
+        "max": 0.0029775770381093025
+       }
+      },
+      "knees": {
+       "LOD01": {
+        "p95": 0.0004928626469336444,
+        "max": 0.0011816609185189009
+       },
+       "LOD02": {
+        "p95": 0.001109150901902467,
+        "max": 0.0014149362687021494
+       },
+       "LOD03": {
+        "p95": 0.0029087143950164325,
+        "max": 0.003820830024778843
+       }
+      },
+      "calves": {
+       "LOD01": {
+        "p95": 0.0004942591913277283,
+        "max": 0.0007647184538654983
+       },
+       "LOD02": {
+        "p95": 0.0012372850673273202,
+        "max": 0.0018994869897142053
+       },
+       "LOD03": {
+        "p95": 0.0018255823815707117,
+        "max": 0.0019413318950682878
+       }
+      },
+      "ankles": {
+       "LOD01": {
+        "p95": 0.0005195083271246402,
+        "max": 0.0008222035830840468
+       },
+       "LOD02": {
+        "p95": 0.0008250607497757301,
+        "max": 0.0009416945395059884
+       },
+       "LOD03": {
+        "p95": 0.0010405828448710954,
+        "max": 0.0011969065526500344
+       }
+      }
+     }
+    },
+    "DIAG:torso_twist": {
+     "LOD00": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 31.722304964025895,
+        "crease_deg_mean": 18.33012275143118,
+        "crease_deg_p90": 28.606255084731785,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265285,
+        "crease_deg_mean": 26.612598547003937,
+        "crease_deg_p90": 48.787729463014465,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 2756,
+        "dihedral_p95": 16.186785511431655,
+        "dihedral_max": 30.791060090938604,
+        "concave_max": 29.453251793901515,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 905,
+        "dihedral_p95": 44.77924368054791,
+        "dihedral_max": 85.87204721529066,
+        "concave_max": 85.87204721529066,
+        "concave_over_20deg": 100,
+        "convex_over_30deg": 52
+       },
+       "waist_flank": {
+        "edges": 429,
+        "dihedral_p95": 40.33160747021703,
+        "dihedral_max": 164.0335044741556,
+        "concave_max": 109.90023120402883,
+        "concave_over_20deg": 35,
+        "convex_over_30deg": 35
+       },
+       "waist": {
+        "edges": 470,
+        "dihedral_p95": 39.15197271581981,
+        "dihedral_max": 164.0335044741556,
+        "concave_max": 109.90023120402883,
+        "concave_over_20deg": 40,
+        "convex_over_30deg": 38
+       },
+       "wrists": {
+        "edges": 342,
+        "dihedral_p95": 32.643593274525955,
+        "dihedral_max": 42.085922800283264,
+        "concave_max": 26.705001586182355,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 24
+       },
+       "iliac_crest": {
+        "edges": 519,
+        "dihedral_p95": 28.523997407487766,
+        "dihedral_max": 152.254076500423,
+        "concave_max": 152.254076500423,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 16
+       },
+       "lateral_hips": {
+        "edges": 451,
+        "dihedral_p95": 23.649715889072013,
+        "dihedral_max": 38.649656165550944,
+        "concave_max": 24.21205457749814,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 14
+       },
+       "glute_apex": {
+        "edges": 642,
+        "dihedral_p95": 25.932109980260453,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 16,
+        "convex_over_30deg": 14
+       },
+       "inner_thighs": {
+        "edges": 200,
+        "dihedral_p95": 27.785195093190925,
+        "dihedral_max": 40.20133509356207,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 10
+       },
+       "lateral_thigh": {
+        "edges": 244,
+        "dihedral_p95": 31.81433179866264,
+        "dihedral_max": 39.24023565735322,
+        "concave_max": 31.124206664945934,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 16
+       },
+       "knees": {
+        "edges": 384,
+        "dihedral_p95": 35.8399842653537,
+        "dihedral_max": 49.52360349263578,
+        "concave_max": 32.44374361258023,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 33
+       },
+       "calves": {
+        "edges": 380,
+        "dihedral_p95": 39.52029844004866,
+        "dihedral_max": 43.36609659513686,
+        "concave_max": 14.985444699171024,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 50
+       },
+       "ankles": {
+        "edges": 426,
+        "dihedral_p95": 34.992432360015975,
+        "dihedral_max": 54.98846954110813,
+        "concave_max": 38.2921931863869,
+        "concave_over_20deg": 30,
+        "convex_over_30deg": 42
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028961910400539637,
+       "median": -0.005157626001164317,
+       "max": 0.032405413687229156,
+       "below_skin_count": 343,
+       "hair_skin_triangle_overlaps": 248
+      }
+     },
+     "LOD01": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 31.722304964025895,
+        "crease_deg_mean": 18.33012275143118,
+        "crease_deg_p90": 28.606255084731785,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265285,
+        "crease_deg_mean": 26.612598547003937,
+        "crease_deg_p90": 48.787729463014465,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 1658,
+        "dihedral_p95": 17.857564895448252,
+        "dihedral_max": 30.83783875238812,
+        "concave_max": 29.441822769585734,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 831,
+        "dihedral_p95": 42.041771676762444,
+        "dihedral_max": 85.87204721529066,
+        "concave_max": 85.87204721529066,
+        "concave_over_20deg": 100,
+        "convex_over_30deg": 44
+       },
+       "waist_flank": {
+        "edges": 389,
+        "dihedral_p95": 41.54018792527301,
+        "dihedral_max": 164.0335044741556,
+        "concave_max": 109.90023120402883,
+        "concave_over_20deg": 36,
+        "convex_over_30deg": 36
+       },
+       "waist": {
+        "edges": 466,
+        "dihedral_p95": 39.23957242722652,
+        "dihedral_max": 164.0335044741556,
+        "concave_max": 109.90023120402883,
+        "concave_over_20deg": 40,
+        "convex_over_30deg": 38
+       },
+       "wrists": {
+        "edges": 324,
+        "dihedral_p95": 31.766218562735403,
+        "dihedral_max": 42.085922800283264,
+        "concave_max": 26.705001586182355,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 22
+       },
+       "iliac_crest": {
+        "edges": 283,
+        "dihedral_p95": 33.21094338101546,
+        "dihedral_max": 152.254076500423,
+        "concave_max": 152.254076500423,
+        "concave_over_20deg": 13,
+        "convex_over_30deg": 12
+       },
+       "lateral_hips": {
+        "edges": 258,
+        "dihedral_p95": 28.820711635773876,
+        "dihedral_max": 37.321270059051876,
+        "concave_max": 28.267658459168942,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 11
+       },
+       "glute_apex": {
+        "edges": 405,
+        "dihedral_p95": 33.92290744920097,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 19,
+        "convex_over_30deg": 16
+       },
+       "inner_thighs": {
+        "edges": 149,
+        "dihedral_p95": 28.993562407753565,
+        "dihedral_max": 37.27610061354604,
+        "concave_max": 20.38360591793691,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 8
+       },
+       "lateral_thigh": {
+        "edges": 153,
+        "dihedral_p95": 33.15202752197645,
+        "dihedral_max": 40.52434859634374,
+        "concave_max": 25.17322713820841,
+        "concave_over_20deg": 3,
+        "convex_over_30deg": 17
+       },
+       "knees": {
+        "edges": 249,
+        "dihedral_p95": 36.7386324145104,
+        "dihedral_max": 49.405836642984816,
+        "concave_max": 32.59818638941801,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 23
+       },
+       "calves": {
+        "edges": 280,
+        "dihedral_p95": 39.870478992403726,
+        "dihedral_max": 42.98913088537277,
+        "concave_max": 15.412586713640978,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 42
+       },
+       "ankles": {
+        "edges": 238,
+        "dihedral_p95": 37.99866861161644,
+        "dihedral_max": 54.839206557790526,
+        "concave_max": 36.33203644939071,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 28
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028903313912451267,
+       "median": -0.004921578569337726,
+       "max": 0.032405413687229156,
+       "below_skin_count": 339,
+       "hair_skin_triangle_overlaps": 255
+      }
+     },
+     "LOD02": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 32.00499438139206,
+        "crease_deg_mean": 18.383908311786904,
+        "crease_deg_p90": 28.789419061833094,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265285,
+        "crease_deg_mean": 26.612598547003937,
+        "crease_deg_p90": 48.787729463014465,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 805,
+        "dihedral_p95": 21.434853243167982,
+        "dihedral_max": 32.484319609850566,
+        "concave_max": 32.484319609850566,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 2
+       },
+       "chest": {
+        "edges": 702,
+        "dihedral_p95": 43.105646128442174,
+        "dihedral_max": 85.87204721529066,
+        "concave_max": 85.87204721529066,
+        "concave_over_20deg": 93,
+        "convex_over_30deg": 32
+       },
+       "waist_flank": {
+        "edges": 354,
+        "dihedral_p95": 38.64333712040972,
+        "dihedral_max": 165.32396259579167,
+        "concave_max": 109.12402508765061,
+        "concave_over_20deg": 28,
+        "convex_over_30deg": 29
+       },
+       "waist": {
+        "edges": 420,
+        "dihedral_p95": 38.60815012888087,
+        "dihedral_max": 165.32396259579167,
+        "concave_max": 109.12402508765061,
+        "concave_over_20deg": 36,
+        "convex_over_30deg": 35
+       },
+       "wrists": {
+        "edges": 266,
+        "dihedral_p95": 33.62005504571844,
+        "dihedral_max": 43.820804599767875,
+        "concave_max": 26.705001586182355,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 22
+       },
+       "iliac_crest": {
+        "edges": 168,
+        "dihedral_p95": 29.642679904526723,
+        "dihedral_max": 131.49601518750657,
+        "concave_max": 131.49601518750657,
+        "concave_over_20deg": 6,
+        "convex_over_30deg": 3
+       },
+       "lateral_hips": {
+        "edges": 108,
+        "dihedral_p95": 30.5931929491651,
+        "dihedral_max": 38.27447358479826,
+        "concave_max": 30.83472704822365,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 6
+       },
+       "glute_apex": {
+        "edges": 225,
+        "dihedral_p95": 34.09630245482339,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 21,
+        "convex_over_30deg": 11
+       },
+       "inner_thighs": {
+        "edges": 131,
+        "dihedral_p95": 26.543889138450595,
+        "dihedral_max": 32.02990931976305,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 4
+       },
+       "lateral_thigh": {
+        "edges": 89,
+        "dihedral_p95": 34.16731754791822,
+        "dihedral_max": 37.736900120653864,
+        "concave_max": 21.113345417218465,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 10
+       },
+       "knees": {
+        "edges": 128,
+        "dihedral_p95": 39.01758194670847,
+        "dihedral_max": 49.644162854436004,
+        "concave_max": 33.96522959868655,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 16
+       },
+       "calves": {
+        "edges": 192,
+        "dihedral_p95": 40.127649296140646,
+        "dihedral_max": 46.68435809651301,
+        "concave_max": 12.650767172248711,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 26
+       },
+       "ankles": {
+        "edges": 146,
+        "dihedral_p95": 42.991445702556035,
+        "dihedral_max": 51.06958554884252,
+        "concave_max": 43.0183992503686,
+        "concave_over_20deg": 18,
+        "convex_over_30deg": 30
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028961910400539637,
+       "median": -0.005076386267319322,
+       "max": 0.032405413687229156,
+       "below_skin_count": 342,
+       "hair_skin_triangle_overlaps": 259
+      }
+     },
+     "LOD03": {
+      "seams": {
+       "Bust-Pants": {
+        "vertices": 26,
+        "crease_deg_max": 33.42222246600746,
+        "crease_deg_mean": 18.653999716746654,
+        "crease_deg_p90": 29.970900608098162,
+        "gap_max": 0.0
+       },
+       "Bust-Rist": {
+        "vertices": 36,
+        "crease_deg_max": 53.646299787265285,
+        "crease_deg_mean": 26.612598547003937,
+        "crease_deg_p90": 48.787729463014465,
+        "gap_max": 0.0
+       },
+       "Pants-Boots": {
+        "vertices": 26,
+        "crease_deg_max": 16.39818877357008,
+        "crease_deg_mean": 11.268268505916069,
+        "crease_deg_p90": 16.180873590410467,
+        "gap_max": 0.0
+       }
+      },
+      "regions": {
+       "shoulders": {
+        "edges": 288,
+        "dihedral_p95": 29.220535543026024,
+        "dihedral_max": 38.734527567545726,
+        "concave_max": 38.734527567545726,
+        "concave_over_20deg": 24,
+        "convex_over_30deg": 6
+       },
+       "chest": {
+        "edges": 444,
+        "dihedral_p95": 55.662178860073624,
+        "dihedral_max": 87.41401131040982,
+        "concave_max": 87.41401131040982,
+        "concave_over_20deg": 67,
+        "convex_over_30deg": 44
+       },
+       "waist_flank": {
+        "edges": 241,
+        "dihedral_p95": 65.56254247372844,
+        "dihedral_max": 156.35009707557862,
+        "concave_max": 147.62651608443633,
+        "concave_over_20deg": 24,
+        "convex_over_30deg": 35
+       },
+       "waist": {
+        "edges": 308,
+        "dihedral_p95": 53.90603664319822,
+        "dihedral_max": 156.35009707557862,
+        "concave_max": 147.62651608443633,
+        "concave_over_20deg": 31,
+        "convex_over_30deg": 36
+       },
+       "wrists": {
+        "edges": 218,
+        "dihedral_p95": 31.532517440214097,
+        "dihedral_max": 42.085922800283264,
+        "concave_max": 26.705001586182355,
+        "concave_over_20deg": 4,
+        "convex_over_30deg": 14
+       },
+       "iliac_crest": {
+        "edges": 143,
+        "dihedral_p95": 29.71095599911917,
+        "dihedral_max": 131.49601518750657,
+        "concave_max": 131.49601518750657,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 2
+       },
+       "lateral_hips": {
+        "edges": 57,
+        "dihedral_p95": 30.413886666677158,
+        "dihedral_max": 35.43456737770131,
+        "concave_max": 30.424558242134985,
+        "concave_over_20deg": 1,
+        "convex_over_30deg": 4
+       },
+       "glute_apex": {
+        "edges": 182,
+        "dihedral_p95": 42.89653187516407,
+        "dihedral_max": 167.2720171843882,
+        "concave_max": 167.2720171843882,
+        "concave_over_20deg": 14,
+        "convex_over_30deg": 15
+       },
+       "inner_thighs": {
+        "edges": 126,
+        "dihedral_p95": 26.734920289956662,
+        "dihedral_max": 32.02990931976305,
+        "concave_max": 16.408679895808476,
+        "concave_over_20deg": 0,
+        "convex_over_30deg": 6
+       },
+       "lateral_thigh": {
+        "edges": 68,
+        "dihedral_p95": 33.4685962637157,
+        "dihedral_max": 37.00761059758077,
+        "concave_max": 34.85161052444582,
+        "concave_over_20deg": 5,
+        "convex_over_30deg": 3
+       },
+       "knees": {
+        "edges": 84,
+        "dihedral_p95": 44.3383269379016,
+        "dihedral_max": 57.95864012020032,
+        "concave_max": 44.261334987253235,
+        "concave_over_20deg": 12,
+        "convex_over_30deg": 12
+       },
+       "calves": {
+        "edges": 160,
+        "dihedral_p95": 39.310494948201836,
+        "dihedral_max": 53.7189034741316,
+        "concave_max": 24.770197357005586,
+        "concave_over_20deg": 2,
+        "convex_over_30deg": 20
+       },
+       "ankles": {
+        "edges": 112,
+        "dihedral_p95": 46.74813591498774,
+        "dihedral_max": 56.0669026875995,
+        "concave_max": 44.36306867471425,
+        "concave_over_20deg": 16,
+        "convex_over_30deg": 26
+       }
+      },
+      "pubic_hair": {
+       "vertices": 504,
+       "signed_offset_min": -0.03263560310006142,
+       "p05": -0.028903313912451267,
+       "median": -0.005376849556341767,
+       "max": 0.032405413687229156,
+       "below_skin_count": 347,
+       "hair_skin_triangle_overlaps": 259
+      }
+     },
+     "lod_region_deviation": {
+      "shoulders": {
+       "LOD01": {
+        "p95": 0.00015205418167170138,
+        "max": 0.00022124355018604547
+       },
+       "LOD02": {
+        "p95": 0.00042039057007059374,
+        "max": 0.0005893146153539419
+       },
+       "LOD03": {
+        "p95": 0.0010643606074154377,
+        "max": 0.0014748714165762067
+       }
+      },
+      "chest": {
+       "LOD01": {
+        "p95": 8.019238157430664e-05,
+        "max": 0.00022124355018604547
+       },
+       "LOD02": {
+        "p95": 0.00019870418909704305,
+        "max": 0.000520810775924474
+       },
+       "LOD03": {
+        "p95": 0.0022487646201625466,
+        "max": 0.00288254301995039
+       }
+      },
+      "waist_flank": {
+       "LOD01": {
+        "p95": 6.024532031005924e-05,
+        "max": 0.00035639212001115084
+       },
+       "LOD02": {
+        "p95": 0.00030583620391553233,
+        "max": 0.001970181707292795
+       },
+       "LOD03": {
+        "p95": 0.0020413449965417385,
+        "max": 0.0029886108823120594
+       }
+      },
+      "waist": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 0.0
+       },
+       "LOD02": {
+        "p95": 0.0002957840741146355,
+        "max": 0.0010354411788284779
+       },
+       "LOD03": {
+        "p95": 0.0014799193013459433,
+        "max": 0.0029886108823120594
+       }
+      },
+      "iliac_crest": {
+       "LOD01": {
+        "p95": 0.0006326401635305956,
+        "max": 0.012367982417345047
+       },
+       "LOD02": {
+        "p95": 0.001574623119086027,
+        "max": 0.012367982417345047
+       },
+       "LOD03": {
+        "p95": 0.0020137244369834656,
+        "max": 0.012367982417345047
+       }
+      },
+      "wrists": {
+       "LOD01": {
+        "p95": 0.0,
+        "max": 7.459503831341863e-05
+       },
+       "LOD02": {
+        "p95": 8.070819603744917e-05,
+        "max": 0.0001776147837517783
+       },
+       "LOD03": {
+        "p95": 0.0,
+        "max": 0.0005222727195359766
+       }
+      },
+      "lateral_hips": {
+       "LOD01": {
+        "p95": 0.0006959147518500685,
+        "max": 0.0010470892302691936
+       },
+       "LOD02": {
+        "p95": 0.0015160234412178396,
+        "max": 0.0020185625180602074
+       },
+       "LOD03": {
+        "p95": 0.002047595544718206,
+        "max": 0.0021978740114718676
+       }
+      },
+      "glute_apex": {
+       "LOD01": {
+        "p95": 0.0007180822372902183,
+        "max": 0.0021084172185510397
+       },
+       "LOD02": {
+        "p95": 0.0016527234402019518,
+        "max": 0.0019704566802829504
+       },
+       "LOD03": {
+        "p95": 0.0021982673788443208,
+        "max": 0.0030064741149544716
+       }
+      },
+      "inner_thighs": {
+       "LOD01": {
+        "p95": 0.0001287984296141076,
+        "max": 0.00027520465664565563
+       },
+       "LOD02": {
+        "p95": 0.0005151959718205032,
+        "max": 0.0007264293963089585
+       },
+       "LOD03": {
+        "p95": 0.0005348667706130067,
+        "max": 0.0007264293963089585
+       }
+      },
+      "lateral_thigh": {
+       "LOD01": {
+        "p95": 0.0005821972416015343,
+        "max": 0.0008329421398229897
+       },
+       "LOD02": {
+        "p95": 0.0015296403726097196,
+        "max": 0.0018076155101880431
+       },
+       "LOD03": {
+        "p95": 0.0021343090338632464,
+        "max": 0.0028846499044448137
+       }
+      },
+      "knees": {
+       "LOD01": {
+        "p95": 0.0003458486782619728,
+        "max": 0.0004447281826287508
+       },
+       "LOD02": {
+        "p95": 0.000934785191202536,
+        "max": 0.0011749878758564591
+       },
+       "LOD03": {
+        "p95": 0.0022819236037321397,
+        "max": 0.0030333392787724733
+       }
+      },
+      "calves": {
+       "LOD01": {
+        "p95": 0.0004942593659507111,
+        "max": 0.0007639335235580802
+       },
+       "LOD02": {
+        "p95": 0.0012372760102152822,
+        "max": 0.0018994761630892754
+       },
+       "LOD03": {
+        "p95": 0.0018255715549457818,
+        "max": 0.0019413330592215061
+       }
+      },
+      "ankles": {
+       "LOD01": {
+        "p95": 0.00045624221093021333,
+        "max": 0.0008857176871970296
+       },
+       "LOD02": {
+        "p95": 0.0009746315481606871,
+        "max": 0.0010011809645220637
+       },
+       "LOD03": {
+        "p95": 0.0011525668669492006,
+        "max": 0.0018025260651484132
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "_note": "Original 13 diagnostic poses (audit/diagnostic_poses.json) plus the brief's missing cases. Axes follow the existing convention: Arm x = long-axis roll, Arm y = flexion plane, Arm z = elevation; Spine x = flexion(+)/extension(-), z = lateral; Leg x = flexion(+)/extension(-), z = abduction.",
+ "bind": {},
+ "shoulder_raise": {"b_L_Arm1": [["z", 75]], "b_L_ArmHelper": [["z", 40]], "b_R_Arm1": [["z", -75]], "b_R_ArmHelper": [["z", -40]]},
+ "shoulder_forward": {"b_L_Arm1": [["y", 70]], "b_L_ArmHelper": [["y", 35]], "b_R_Arm1": [["y", -70]], "b_R_ArmHelper": [["y", -35]]},
+ "shoulder_rotation": {"b_L_Arm1": [["x", 60]], "b_R_Arm1": [["x", -60]]},
+ "elbow_flex": {"b_L_Arm2": [["y", 110]], "b_L_Elbow": [["y", 55]], "b_R_Arm2": [["y", -110]], "b_R_Elbow": [["y", -55]]},
+ "wrist_motion": {"b_L_Hand": [["z", 40]], "b_R_Hand": [["z", -40]]},
+ "forearm_twist": {"b_L_Arm2": [["x", 75]], "b_L_ArmRoll": [["x", 35]]},
+ "torso_bend": {"b_C_Spine1": [["x", 18]], "b_C_Spine2": [["x", 18]], "b_C_Chest": [["x", 18]]},
+ "torso_extension": {"b_C_Spine1": [["x", -14]], "b_C_Spine2": [["x", -14]], "b_C_Chest": [["x", -12]]},
+ "lateral_bend": {"b_C_Spine1": [["z", 12]], "b_C_Spine2": [["z", 12]], "b_C_Chest": [["z", 10]]},
+ "torso_twist": {"b_C_Spine2": [["y", 20]], "b_C_Chest": [["y", 25]]},
+ "hip_rotation": {"b_L_Leg1": [["y", 35]], "b_L_LegHelper": [["y", 18]]},
+ "high_kick": {"b_L_Leg1": [["x", 105]], "b_L_LegHelper": [["x", 50]]},
+ "hip_extension": {"b_L_Leg1": [["x", -30]], "b_L_LegHelper": [["x", -15]]},
+ "leg_abduction": {"b_L_Leg1": [["z", 35]], "b_R_Leg1": [["z", -35]], "b_L_LegHelper": [["z", 17.5]], "b_R_LegHelper": [["z", -17.5]]},
+ "knee_bend": {"b_L_Leg2": [["x", -120]], "b_L_Knee": [["x", -60]]},
+ "deep_flexion": {"b_L_Leg1": [["x", 85]], "b_R_Leg1": [["x", 85]], "b_L_LegHelper": [["x", 42]], "b_R_LegHelper": [["x", 42]], "b_L_Leg2": [["x", -120]], "b_R_Leg2": [["x", -120]], "b_L_Knee": [["x", -60]], "b_R_Knee": [["x", -60]]},
+ "ankle_motion": {"b_L_Foot": [["x", 35]], "b_R_Foot": [["x", -25]]}
+}
